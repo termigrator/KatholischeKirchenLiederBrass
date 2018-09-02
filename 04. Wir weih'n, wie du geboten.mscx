@@ -10,9 +10,414 @@
     <Division>480</Division>
     <Style>
       <lastSystemFillLimit>0</lastSystemFillLimit>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>baseline</valign>
+        <offsetType>spatium</offsetType>
+        <family>MuseJass</family>
+        <size>10</size>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>top</valign>
+        <offsetType>absolute</offsetType>
+        <name>Title</name>
+        <family>MuseJazz</family>
+        <size>14</size>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>top</valign>
+        <xoffset>0</xoffset>
+        <yoffset>10</yoffset>
+        <offsetType>absolute</offsetType>
+        <name>Subtitle</name>
+        <family>MuseJass</family>
+        <size>12</size>
+        </TextStyle>
+      <TextStyle>
+        <halign>right</halign>
+        <valign>bottom</valign>
+        <offsetType>absolute</offsetType>
+        <name>Composer</name>
+        <family>MuseJazz</family>
+        <size>12</size>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>bottom</valign>
+        <offsetType>absolute</offsetType>
+        <name>Lyricist</name>
+        <family>MuseJass</family>
+        <size>12</size>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>baseline</valign>
+        <xoffset>0</xoffset>
+        <yoffset>6</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Lyrics Odd Lines</name>
+        <family>MuseJass</family>
+        <size>11</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>baseline</valign>
+        <xoffset>0</xoffset>
+        <yoffset>6</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Lyrics Even Lines</name>
+        <family>MuseJass</family>
+        <size>11</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>center</valign>
+        <offsetType>spatium</offsetType>
+        <name>Fingering</name>
+        <family>MuseJass</family>
+        <size>8</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>right</halign>
+        <valign>center</valign>
+        <xoffset>-0.5</xoffset>
+        <yoffset>0</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>LH Guitar Fingering</name>
+        <family>MuseJass</family>
+        <size>8</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>center</valign>
+        <offsetType>spatium</offsetType>
+        <name>RH Guitar Fingering</name>
+        <family>MuseJass</family>
+        <size>8</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>center</valign>
+        <xoffset>0</xoffset>
+        <yoffset>-2</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>String Number</name>
+        <family>MuseJass</family>
+        <size>8</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        <frameWidthS>0.1</frameWidthS>
+        <paddingWidthS>0.2</paddingWidthS>
+        <frameRound>0</frameRound>
+        <frameColor r="0" g="0" b="0" a="255"/>
+        <circle>1</circle>
+        </TextStyle>
+      <TextStyle>
+        <halign>right</halign>
+        <valign>center</valign>
+        <offsetType>absolute</offsetType>
+        <name>Instrument Name (Long)</name>
+        <family>MuseJass</family>
+        <size>11</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>right</halign>
+        <valign>center</valign>
+        <offsetType>absolute</offsetType>
+        <name>Instrument Name (Short)</name>
+        <family>MuseJass</family>
+        <size>11</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>top</valign>
+        <offsetType>absolute</offsetType>
+        <name>Instrument Name (Part)</name>
+        <family>MuseJass</family>
+        <size>18</size>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>baseline</valign>
+        <xoffset>0</xoffset>
+        <yoffset>8</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Dynamics</name>
+        <family>MuseJass</family>
+        <size>12</size>
+        <italic>1</italic>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>baseline</valign>
+        <xoffset>0</xoffset>
+        <yoffset>-2</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Technique</name>
+        <family>MuseJass</family>
+        <size>12</size>
+        <italic>1</italic>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>baseline</valign>
+        <xoffset>0</xoffset>
+        <yoffset>-4</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Tempo</name>
+        <family>MuseJass</family>
+        <size>12</size>
+        <bold>1</bold>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        <systemFlag>1</systemFlag>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>top</valign>
+        <offsetType>spatium</offsetType>
+        <name>Metronome</name>
+        <family>MuseJass</family>
+        <size>12</size>
+        <bold>1</bold>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>bottom</valign>
+        <xoffset>0</xoffset>
+        <yoffset>-2</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Measure Number</name>
+        <family>MuseJass</family>
+        <size>8</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>top</valign>
+        <xoffset>0</xoffset>
+        <yoffset>6</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Translator</name>
+        <family>MuseJass</family>
+        <size>11</size>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>center</valign>
+        <offsetType>absolute</offsetType>
+        <name>Tuplet</name>
+        <family>MuseJass</family>
+        <size>10</size>
+        <italic>1</italic>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>top</valign>
+        <xoffset>0</xoffset>
+        <yoffset>-4</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>System</name>
+        <family>MuseJass</family>
+        <size>10</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        <systemFlag>1</systemFlag>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>top</valign>
+        <xoffset>0</xoffset>
+        <yoffset>-4</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Staff</name>
+        <family>MuseJass</family>
+        <size>10</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>baseline</valign>
+        <offsetType>spatium</offsetType>
+        <name>Chord Symbol</name>
+        <family>MuseJass</family>
+        <size>12</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>baseline</valign>
+        <xoffset>0</xoffset>
+        <yoffset>-3</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Rehearsal Mark</name>
+        <family>MuseJass</family>
+        <size>14</size>
+        <bold>1</bold>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        <frameWidthS>0.2</frameWidthS>
+        <paddingWidthS>0.5</paddingWidthS>
+        <frameRound>20</frameRound>
+        <frameColor r="0" g="0" b="0" a="255"/>
+        <systemFlag>1</systemFlag>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>baseline</valign>
+        <xoffset>0</xoffset>
+        <yoffset>-2</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Repeat Text Left</name>
+        <family>MuseJass</family>
+        <size>20</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        <systemFlag>1</systemFlag>
+        </TextStyle>
+      <TextStyle>
+        <halign>right</halign>
+        <valign>baseline</valign>
+        <xoffset>0</xoffset>
+        <yoffset>-2</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Repeat Text Right</name>
+        <family>MuseJass</family>
+        <size>12</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        <systemFlag>1</systemFlag>
+        </TextStyle>
+      <TextStyle>
+        <halign>right</halign>
+        <valign>baseline</valign>
+        <xoffset>0</xoffset>
+        <yoffset>-2</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Repeat Text</name>
+        <family>MuseJass</family>
+        <size>12</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        <systemFlag>1</systemFlag>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>baseline</valign>
+        <xoffset>0.5</xoffset>
+        <yoffset>1.9</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Volta</name>
+        <family>MuseJass</family>
+        <size>11</size>
+        <bold>1</bold>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>top</valign>
+        <offsetType>spatium</offsetType>
+        <name>Frame</name>
+        <family>MuseJass</family>
+        <size>12</size>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>center</valign>
+        <offsetType>spatium</offsetType>
+        <name>Text Line</name>
+        <family>MuseJass</family>
+        <size>12</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>baseline</valign>
+        <offsetType>spatium</offsetType>
+        <name>Glissando</name>
+        <family>MuseJass</family>
+        <size>8</size>
+        <italic>1</italic>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>center</valign>
+        <offsetType>spatium</offsetType>
+        <name>Ottava</name>
+        <family>MuseJass</family>
+        <size>12</size>
+        <italic>1</italic>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>baseline</valign>
+        <xoffset>0</xoffset>
+        <yoffset>0.15</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Pedal</name>
+        <family>MuseJass</family>
+        <size>12</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>baseline</valign>
+        <offsetType>spatium</offsetType>
+        <name>Hairpin</name>
+        <family>MuseJass</family>
+        <size>12</size>
+        <italic>1</italic>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>bottom</valign>
+        <offsetType>spatium</offsetType>
+        <name>Bend</name>
+        <family>MuseJass</family>
+        <size>8</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>top</valign>
+        <offsetType>spatium</offsetType>
+        <name>Header</name>
+        <family>MuseJass</family>
+        <size>8</size>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>bottom</valign>
+        <xoffset>0</xoffset>
+        <yoffset>5</yoffset>
+        <offsetType>absolute</offsetType>
+        <name>Footer</name>
+        <family>MuseJass</family>
+        <size>8</size>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>bottom</valign>
+        <xoffset>0</xoffset>
+        <yoffset>-3</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Instrument Change</name>
+        <family>MuseJass</family>
+        <size>12</size>
+        <bold>1</bold>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
       <page-layout>
-        <page-height>1190.55</page-height>
-        <page-width>839.055</page-width>
+        <page-height>1683.36</page-height>
+        <page-width>1190.88</page-width>
         <page-margins type="even">
           <left-margin>56.6929</left-margin>
           <right-margin>56.6929</right-margin>
@@ -26,7 +431,7 @@
           <bottom-margin>113.386</bottom-margin>
           </page-margins>
         </page-layout>
-      <Spatium>1.764</Spatium>
+      <Spatium>1.76389</Spatium>
       </Style>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
@@ -47,8 +452,6 @@
     <metaTag name="workTitle">4 Wir weih'n, wie du geboten</metaTag>
     <PageList>
       <Page>
-        <System>
-          </System>
         <System>
           </System>
         <System>
@@ -165,7 +568,7 @@
       </Part>
     <Staff id="1">
       <VBox>
-        <height>10</height>
+        <height>4.3851</height>
         <lid>1</lid>
         <Text>
           <lid>2</lid>
@@ -175,6 +578,7 @@
         </VBox>
       <Measure number="1" len="1/4">
         <irregular/>
+        <stretch>0.9</stretch>
         <KeySig>
           <accidental>-2</accidental>
           </KeySig>
@@ -183,10 +587,6 @@
           <sigD>4</sigD>
           <showCourtesySig>1</showCourtesySig>
           </TimeSig>
-        <StaffText>
-          <pos x="0" y="-3"/>
-          <text>B</text>
-          </StaffText>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -196,10 +596,7 @@
           </Chord>
         </Measure>
       <Measure number="1">
-        <StaffText>
-          <pos x="0" y="-3"/>
-          <text>B</text>
-          </StaffText>
+        <stretch>0.9</stretch>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -207,10 +604,6 @@
             <tpc>12</tpc>
             </Note>
           </Chord>
-        <StaffText>
-          <pos x="0" y="-3"/>
-          <text>A</text>
-          </StaffText>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -218,10 +611,6 @@
             <tpc>17</tpc>
             </Note>
           </Chord>
-        <StaffText>
-          <pos x="0" y="-3"/>
-          <text>B</text>
-          </StaffText>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -229,10 +618,6 @@
             <tpc>12</tpc>
             </Note>
           </Chord>
-        <StaffText>
-          <pos x="0" y="-3"/>
-          <text>C</text>
-          </StaffText>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -242,10 +627,7 @@
           </Chord>
         </Measure>
       <Measure number="2">
-        <StaffText>
-          <pos x="0" y="-3"/>
-          <text>A</text>
-          </StaffText>
+        <stretch>0.9</stretch>
         <Slur id="2">
           <track>0</track>
           </Slur>
@@ -257,10 +639,6 @@
             <tpc>17</tpc>
             </Note>
           </Chord>
-        <StaffText>
-          <pos x="0" y="-3"/>
-          <text>G</text>
-          </StaffText>
         <Chord>
           <durationType>quarter</durationType>
           <Slur type="stop" id="2"/>
@@ -269,10 +647,6 @@
             <tpc>15</tpc>
             </Note>
           </Chord>
-        <StaffText>
-          <pos x="0" y="-3"/>
-          <text>F</text>
-          </StaffText>
         <Chord>
           <durationType>quarter</durationType>
           <Articulation>
@@ -284,10 +658,6 @@
             <tpc>13</tpc>
             </Note>
           </Chord>
-        <StaffText>
-          <pos x="0" y="-3"/>
-          <text>C</text>
-          </StaffText>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -297,10 +667,7 @@
           </Chord>
         </Measure>
       <Measure number="3">
-        <StaffText>
-          <pos x="0" y="-3"/>
-          <text>D</text>
-          </StaffText>
+        <stretch>0.9</stretch>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -308,10 +675,6 @@
             <tpc>16</tpc>
             </Note>
           </Chord>
-        <StaffText>
-          <pos x="0" y="-3"/>
-          <text>C</text>
-          </StaffText>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -319,10 +682,6 @@
             <tpc>14</tpc>
             </Note>
           </Chord>
-        <StaffText>
-          <pos x="0" y="-3"/>
-          <text>B</text>
-          </StaffText>
         <Slur id="3">
           <track>0</track>
           </Slur>
@@ -334,10 +693,6 @@
             <tpc>12</tpc>
             </Note>
           </Chord>
-        <StaffText>
-          <pos x="0" y="-3"/>
-          <text>A</text>
-          </StaffText>
         <Chord>
           <durationType>eighth</durationType>
           <Slur type="stop" id="3"/>
@@ -346,10 +701,6 @@
             <tpc>17</tpc>
             </Note>
           </Chord>
-        <StaffText>
-          <pos x="0" y="-3"/>
-          <text>G</text>
-          </StaffText>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -360,13 +711,10 @@
         </Measure>
       <Measure number="4" len="3/4">
         <endRepeat>2</endRepeat>
+        <stretch>0.9</stretch>
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
-        <StaffText>
-          <pos x="0" y="-3"/>
-          <text>F</text>
-          </StaffText>
         <Chord>
           <durationType>half</durationType>
           <Articulation>
@@ -383,10 +731,7 @@
           </Rest>
         </Measure>
       <Measure number="5" len="1/4">
-        <StaffText>
-          <pos x="0" y="-3"/>
-          <text>F</text>
-          </StaffText>
+        <stretch>0.9</stretch>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -396,10 +741,7 @@
           </Chord>
         </Measure>
       <Measure number="6">
-        <StaffText>
-          <pos x="0" y="-3"/>
-          <text>Es</text>
-          </StaffText>
+        <stretch>0.9</stretch>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -407,10 +749,6 @@
             <tpc>11</tpc>
             </Note>
           </Chord>
-        <StaffText>
-          <pos x="0" y="-3"/>
-          <text>D</text>
-          </StaffText>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -418,10 +756,6 @@
             <tpc>16</tpc>
             </Note>
           </Chord>
-        <StaffText>
-          <pos x="0" y="-3"/>
-          <text>C</text>
-          </StaffText>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -429,10 +763,6 @@
             <tpc>14</tpc>
             </Note>
           </Chord>
-        <StaffText>
-          <pos x="0" y="-3"/>
-          <text>D</text>
-          </StaffText>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -442,10 +772,7 @@
           </Chord>
         </Measure>
       <Measure number="7">
-        <StaffText>
-          <pos x="0" y="-3"/>
-          <text>Es</text>
-          </StaffText>
+        <stretch>0.9</stretch>
         <Slur id="4">
           <track>0</track>
           </Slur>
@@ -457,10 +784,6 @@
             <tpc>11</tpc>
             </Note>
           </Chord>
-        <StaffText>
-          <pos x="0" y="-3"/>
-          <text>D</text>
-          </StaffText>
         <Chord>
           <durationType>quarter</durationType>
           <Slur type="stop" id="4"/>
@@ -469,10 +792,6 @@
             <tpc>16</tpc>
             </Note>
           </Chord>
-        <StaffText>
-          <pos x="0" y="-3"/>
-          <text>C</text>
-          </StaffText>
         <Chord>
           <durationType>quarter</durationType>
           <Articulation>
@@ -484,10 +803,6 @@
             <tpc>14</tpc>
             </Note>
           </Chord>
-        <StaffText>
-          <pos x="0" y="-3"/>
-          <text>F</text>
-          </StaffText>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -497,10 +812,7 @@
           </Chord>
         </Measure>
       <Measure number="8">
-        <StaffText>
-          <pos x="0" y="-3"/>
-          <text>Es</text>
-          </StaffText>
+        <stretch>0.9</stretch>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -508,10 +820,6 @@
             <tpc>11</tpc>
             </Note>
           </Chord>
-        <StaffText>
-          <pos x="0" y="-3"/>
-          <text>D</text>
-          </StaffText>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -519,10 +827,6 @@
             <tpc>16</tpc>
             </Note>
           </Chord>
-        <StaffText>
-          <pos x="0" y="-3"/>
-          <text>C</text>
-          </StaffText>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -530,10 +834,6 @@
             <tpc>14</tpc>
             </Note>
           </Chord>
-        <StaffText>
-          <pos x="0" y="-3"/>
-          <text>B</text>
-          </StaffText>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -543,10 +843,7 @@
           </Chord>
         </Measure>
       <Measure number="9">
-        <StaffText>
-          <pos x="0" y="-3"/>
-          <text>C</text>
-          </StaffText>
+        <stretch>0.9</stretch>
         <Chord>
           <durationType>half</durationType>
           <Articulation>
@@ -561,10 +858,6 @@
         <Rest>
           <durationType>quarter</durationType>
           </Rest>
-        <StaffText>
-          <pos x="0" y="-3"/>
-          <text>F</text>
-          </StaffText>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -574,10 +867,7 @@
           </Chord>
         </Measure>
       <Measure number="10">
-        <StaffText>
-          <pos x="0" y="-3"/>
-          <text>B</text>
-          </StaffText>
+        <stretch>0.9</stretch>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -585,10 +875,6 @@
             <tpc>12</tpc>
             </Note>
           </Chord>
-        <StaffText>
-          <pos x="0" y="-3"/>
-          <text>C</text>
-          </StaffText>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -596,10 +882,6 @@
             <tpc>14</tpc>
             </Note>
           </Chord>
-        <StaffText>
-          <pos x="0" y="-3"/>
-          <text>D</text>
-          </StaffText>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -607,10 +889,6 @@
             <tpc>16</tpc>
             </Note>
           </Chord>
-        <StaffText>
-          <pos x="0" y="-3"/>
-          <text>Es</text>
-          </StaffText>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -620,10 +898,7 @@
           </Chord>
         </Measure>
       <Measure number="11">
-        <StaffText>
-          <pos x="0" y="-3"/>
-          <text>F</text>
-          </StaffText>
+        <stretch>0.9</stretch>
         <Chord>
           <durationType>half</durationType>
           <Note>
@@ -631,10 +906,6 @@
             <tpc>13</tpc>
             </Note>
           </Chord>
-        <StaffText>
-          <pos x="0" y="-3"/>
-          <text>C</text>
-          </StaffText>
         <Chord>
           <durationType>quarter</durationType>
           <Articulation>
@@ -646,10 +917,6 @@
             <tpc>14</tpc>
             </Note>
           </Chord>
-        <StaffText>
-          <pos x="0" y="-3"/>
-          <text>Es</text>
-          </StaffText>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -659,10 +926,7 @@
           </Chord>
         </Measure>
       <Measure number="12">
-        <StaffText>
-          <pos x="0" y="-3"/>
-          <text>D</text>
-          </StaffText>
+        <stretch>0.9</stretch>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -670,10 +934,6 @@
             <tpc>16</tpc>
             </Note>
           </Chord>
-        <StaffText>
-          <pos x="0" y="-3"/>
-          <text>C</text>
-          </StaffText>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -681,10 +941,6 @@
             <tpc>14</tpc>
             </Note>
           </Chord>
-        <StaffText>
-          <pos x="0" y="-3"/>
-          <text>D</text>
-          </StaffText>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -692,10 +948,6 @@
             <tpc>16</tpc>
             </Note>
           </Chord>
-        <StaffText>
-          <pos x="0" y="-3"/>
-          <text>C</text>
-          </StaffText>
         <Chord>
           <durationType>quarter</durationType>
           <Note>
@@ -705,10 +957,7 @@
           </Chord>
         </Measure>
       <Measure number="13">
-        <StaffText>
-          <pos x="0" y="-3"/>
-          <text>B</text>
-          </StaffText>
+        <stretch>0.9</stretch>
         <Chord>
           <dots>1</dots>
           <durationType>half</durationType>
@@ -1222,23 +1471,384 @@
         </Synthesizer>
       <Division>480</Division>
       <Style>
+        <staffDistance>2.5</staffDistance>
+        <minSystemDistance>2.5</minSystemDistance>
+        <lyricsLineHeight>0.1</lyricsLineHeight>
+        <systemFrameDistance>0</systemFrameDistance>
+        <frameSystemDistance>3</frameSystemDistance>
         <lastSystemFillLimit>0</lastSystemFillLimit>
         <createMultiMeasureRests>1</createMultiMeasureRests>
+        <TextStyle>
+          <halign>left</halign>
+          <valign>baseline</valign>
+          <offsetType>spatium</offsetType>
+          <family>FreeSerif</family>
+          <size>10</size>
+          </TextStyle>
         <TextStyle>
           <halign>center</halign>
           <valign>top</valign>
           <offsetType>absolute</offsetType>
           <name>Title</name>
+          <family>MuseJazz</family>
+          <size>12</size>
+          </TextStyle>
+        <TextStyle>
+          <halign>center</halign>
+          <valign>top</valign>
+          <xoffset>0</xoffset>
+          <yoffset>10</yoffset>
+          <offsetType>absolute</offsetType>
+          <name>Subtitle</name>
+          <family>FreeSerif</family>
+          <size>14</size>
+          </TextStyle>
+        <TextStyle>
+          <halign>right</halign>
+          <valign>bottom</valign>
+          <offsetType>absolute</offsetType>
+          <name>Composer</name>
           <family>FreeSerif</family>
           <size>12</size>
+          </TextStyle>
+        <TextStyle>
+          <halign>left</halign>
+          <valign>bottom</valign>
+          <offsetType>absolute</offsetType>
+          <name>Lyricist</name>
+          <family>FreeSerif</family>
+          <size>12</size>
+          </TextStyle>
+        <TextStyle>
+          <halign>center</halign>
+          <valign>baseline</valign>
+          <xoffset>0</xoffset>
+          <yoffset>6</yoffset>
+          <offsetType>spatium</offsetType>
+          <name>Lyrics Odd Lines</name>
+          <family>FreeSerif</family>
+          <size>11</size>
+          <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+          </TextStyle>
+        <TextStyle>
+          <halign>center</halign>
+          <valign>baseline</valign>
+          <xoffset>0</xoffset>
+          <yoffset>6</yoffset>
+          <offsetType>spatium</offsetType>
+          <name>Lyrics Even Lines</name>
+          <family>FreeSerif</family>
+          <size>11</size>
+          <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+          </TextStyle>
+        <TextStyle>
+          <halign>center</halign>
+          <valign>center</valign>
+          <offsetType>spatium</offsetType>
+          <name>Fingering</name>
+          <family>FreeSerif</family>
+          <size>8</size>
+          <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+          </TextStyle>
+        <TextStyle>
+          <halign>right</halign>
+          <valign>center</valign>
+          <xoffset>-0.5</xoffset>
+          <yoffset>0</yoffset>
+          <offsetType>spatium</offsetType>
+          <name>LH Guitar Fingering</name>
+          <family>FreeSerif</family>
+          <size>8</size>
+          <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+          </TextStyle>
+        <TextStyle>
+          <halign>center</halign>
+          <valign>center</valign>
+          <offsetType>spatium</offsetType>
+          <name>RH Guitar Fingering</name>
+          <family>FreeSerif</family>
+          <size>8</size>
+          <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+          </TextStyle>
+        <TextStyle>
+          <halign>right</halign>
+          <valign>center</valign>
+          <offsetType>absolute</offsetType>
+          <name>Instrument Name (Long)</name>
+          <family>MuseJazz</family>
+          <size>12</size>
+          <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+          </TextStyle>
+        <TextStyle>
+          <halign>right</halign>
+          <valign>center</valign>
+          <offsetType>absolute</offsetType>
+          <name>Instrument Name (Short)</name>
+          <family>MuseJazz</family>
+          <size>12</size>
+          <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
           </TextStyle>
         <TextStyle>
           <halign>left</halign>
           <valign>top</valign>
           <offsetType>absolute</offsetType>
           <name>Instrument Name (Part)</name>
+          <family>MuseJazz</family>
+          <size>11</size>
+          </TextStyle>
+        <TextStyle>
+          <halign>center</halign>
+          <valign>baseline</valign>
+          <xoffset>0</xoffset>
+          <yoffset>8</yoffset>
+          <offsetType>spatium</offsetType>
+          <name>Dynamics</name>
           <family>FreeSerif</family>
           <size>12</size>
+          <italic>1</italic>
+          <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+          </TextStyle>
+        <TextStyle>
+          <halign>left</halign>
+          <valign>baseline</valign>
+          <xoffset>0</xoffset>
+          <yoffset>-2</yoffset>
+          <offsetType>spatium</offsetType>
+          <name>Technique</name>
+          <family>FreeSerif</family>
+          <size>12</size>
+          <italic>1</italic>
+          <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+          </TextStyle>
+        <TextStyle>
+          <halign>left</halign>
+          <valign>baseline</valign>
+          <xoffset>0</xoffset>
+          <yoffset>-4</yoffset>
+          <offsetType>spatium</offsetType>
+          <name>Tempo</name>
+          <family>FreeSerif</family>
+          <size>12</size>
+          <bold>1</bold>
+          <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+          <systemFlag>1</systemFlag>
+          </TextStyle>
+        <TextStyle>
+          <halign>left</halign>
+          <valign>top</valign>
+          <offsetType>spatium</offsetType>
+          <name>Metronome</name>
+          <family>FreeSerif</family>
+          <size>12</size>
+          <bold>1</bold>
+          </TextStyle>
+        <TextStyle>
+          <halign>center</halign>
+          <valign>bottom</valign>
+          <xoffset>0</xoffset>
+          <yoffset>-2</yoffset>
+          <offsetType>spatium</offsetType>
+          <name>Measure Number</name>
+          <family>FreeSerif</family>
+          <size>8</size>
+          <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+          </TextStyle>
+        <TextStyle>
+          <halign>center</halign>
+          <valign>top</valign>
+          <xoffset>0</xoffset>
+          <yoffset>6</yoffset>
+          <offsetType>spatium</offsetType>
+          <name>Translator</name>
+          <family>FreeSerif</family>
+          <size>11</size>
+          </TextStyle>
+        <TextStyle>
+          <halign>center</halign>
+          <valign>center</valign>
+          <offsetType>absolute</offsetType>
+          <name>Tuplet</name>
+          <family>FreeSerif</family>
+          <size>10</size>
+          <italic>1</italic>
+          <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+          </TextStyle>
+        <TextStyle>
+          <halign>left</halign>
+          <valign>top</valign>
+          <xoffset>0</xoffset>
+          <yoffset>-4</yoffset>
+          <offsetType>spatium</offsetType>
+          <name>System</name>
+          <family>FreeSerif</family>
+          <size>10</size>
+          <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+          <systemFlag>1</systemFlag>
+          </TextStyle>
+        <TextStyle>
+          <halign>left</halign>
+          <valign>top</valign>
+          <xoffset>0</xoffset>
+          <yoffset>-4</yoffset>
+          <offsetType>spatium</offsetType>
+          <name>Staff</name>
+          <family>FreeSerif</family>
+          <size>10</size>
+          <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+          </TextStyle>
+        <TextStyle>
+          <halign>left</halign>
+          <valign>baseline</valign>
+          <offsetType>spatium</offsetType>
+          <name>Chord Symbol</name>
+          <family>FreeSerif</family>
+          <size>12</size>
+          <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+          </TextStyle>
+        <TextStyle>
+          <halign>left</halign>
+          <valign>baseline</valign>
+          <xoffset>0</xoffset>
+          <yoffset>-2</yoffset>
+          <offsetType>spatium</offsetType>
+          <name>Repeat Text Left</name>
+          <family>FreeSerif</family>
+          <size>20</size>
+          <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+          <systemFlag>1</systemFlag>
+          </TextStyle>
+        <TextStyle>
+          <halign>right</halign>
+          <valign>baseline</valign>
+          <xoffset>0</xoffset>
+          <yoffset>-2</yoffset>
+          <offsetType>spatium</offsetType>
+          <name>Repeat Text Right</name>
+          <family>FreeSerif</family>
+          <size>12</size>
+          <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+          <systemFlag>1</systemFlag>
+          </TextStyle>
+        <TextStyle>
+          <halign>right</halign>
+          <valign>baseline</valign>
+          <xoffset>0</xoffset>
+          <yoffset>-2</yoffset>
+          <offsetType>spatium</offsetType>
+          <name>Repeat Text</name>
+          <family>FreeSerif</family>
+          <size>12</size>
+          <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+          <systemFlag>1</systemFlag>
+          </TextStyle>
+        <TextStyle>
+          <halign>left</halign>
+          <valign>baseline</valign>
+          <xoffset>0.5</xoffset>
+          <yoffset>1.9</yoffset>
+          <offsetType>spatium</offsetType>
+          <name>Volta</name>
+          <family>FreeSerif</family>
+          <size>11</size>
+          <bold>1</bold>
+          <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+          </TextStyle>
+        <TextStyle>
+          <halign>left</halign>
+          <valign>top</valign>
+          <offsetType>spatium</offsetType>
+          <name>Frame</name>
+          <family>FreeSerif</family>
+          <size>12</size>
+          </TextStyle>
+        <TextStyle>
+          <halign>left</halign>
+          <valign>center</valign>
+          <offsetType>spatium</offsetType>
+          <name>Text Line</name>
+          <family>FreeSerif</family>
+          <size>12</size>
+          <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+          </TextStyle>
+        <TextStyle>
+          <halign>center</halign>
+          <valign>baseline</valign>
+          <offsetType>spatium</offsetType>
+          <name>Glissando</name>
+          <family>FreeSerif</family>
+          <size>8</size>
+          <italic>1</italic>
+          <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+          </TextStyle>
+        <TextStyle>
+          <halign>left</halign>
+          <valign>center</valign>
+          <offsetType>spatium</offsetType>
+          <name>Ottava</name>
+          <family>FreeSerif</family>
+          <size>12</size>
+          <italic>1</italic>
+          <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+          </TextStyle>
+        <TextStyle>
+          <halign>left</halign>
+          <valign>baseline</valign>
+          <xoffset>0</xoffset>
+          <yoffset>0.15</yoffset>
+          <offsetType>spatium</offsetType>
+          <name>Pedal</name>
+          <family>FreeSerif</family>
+          <size>12</size>
+          <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+          </TextStyle>
+        <TextStyle>
+          <halign>left</halign>
+          <valign>baseline</valign>
+          <offsetType>spatium</offsetType>
+          <name>Hairpin</name>
+          <family>FreeSerif</family>
+          <size>12</size>
+          <italic>1</italic>
+          <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+          </TextStyle>
+        <TextStyle>
+          <halign>center</halign>
+          <valign>bottom</valign>
+          <offsetType>spatium</offsetType>
+          <name>Bend</name>
+          <family>FreeSerif</family>
+          <size>8</size>
+          <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+          </TextStyle>
+        <TextStyle>
+          <halign>center</halign>
+          <valign>top</valign>
+          <offsetType>spatium</offsetType>
+          <name>Header</name>
+          <family>FreeSerif</family>
+          <size>8</size>
+          </TextStyle>
+        <TextStyle>
+          <halign>center</halign>
+          <valign>bottom</valign>
+          <xoffset>0</xoffset>
+          <yoffset>5</yoffset>
+          <offsetType>absolute</offsetType>
+          <name>Footer</name>
+          <family>FreeSerif</family>
+          <size>8</size>
+          </TextStyle>
+        <TextStyle>
+          <halign>left</halign>
+          <valign>bottom</valign>
+          <xoffset>0</xoffset>
+          <yoffset>-3</yoffset>
+          <offsetType>spatium</offsetType>
+          <name>Instrument Change</name>
+          <family>FreeSerif</family>
+          <size>12</size>
+          <bold>1</bold>
+          <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
           </TextStyle>
         <page-layout>
           <page-height>595.276</page-height>
@@ -1332,7 +1942,7 @@
             <text>04 Wir weih'n, wie du geboten</text>
             </Text>
           <Text>
-            <pos x="-0.300112" y="6.60247"/>
+            <pos x="-0.300112" y="3.30124"/>
             <style>Instrument Name (Part)</style>
             <text>Tuba</text>
             </Text>

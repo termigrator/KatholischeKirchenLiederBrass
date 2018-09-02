@@ -10,6 +10,411 @@
     <Division>480</Division>
     <Style>
       <lastSystemFillLimit>0</lastSystemFillLimit>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>baseline</valign>
+        <offsetType>spatium</offsetType>
+        <family>MuseJass</family>
+        <size>10</size>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>top</valign>
+        <offsetType>absolute</offsetType>
+        <name>Title</name>
+        <family>MuseJazz</family>
+        <size>14</size>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>top</valign>
+        <xoffset>0</xoffset>
+        <yoffset>10</yoffset>
+        <offsetType>absolute</offsetType>
+        <name>Subtitle</name>
+        <family>MuseJass</family>
+        <size>12</size>
+        </TextStyle>
+      <TextStyle>
+        <halign>right</halign>
+        <valign>bottom</valign>
+        <offsetType>absolute</offsetType>
+        <name>Composer</name>
+        <family>MuseJazz</family>
+        <size>12</size>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>bottom</valign>
+        <offsetType>absolute</offsetType>
+        <name>Lyricist</name>
+        <family>MuseJass</family>
+        <size>12</size>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>baseline</valign>
+        <xoffset>0</xoffset>
+        <yoffset>6</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Lyrics Odd Lines</name>
+        <family>MuseJass</family>
+        <size>11</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>baseline</valign>
+        <xoffset>0</xoffset>
+        <yoffset>6</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Lyrics Even Lines</name>
+        <family>MuseJass</family>
+        <size>11</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>center</valign>
+        <offsetType>spatium</offsetType>
+        <name>Fingering</name>
+        <family>MuseJass</family>
+        <size>8</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>right</halign>
+        <valign>center</valign>
+        <xoffset>-0.5</xoffset>
+        <yoffset>0</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>LH Guitar Fingering</name>
+        <family>MuseJass</family>
+        <size>8</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>center</valign>
+        <offsetType>spatium</offsetType>
+        <name>RH Guitar Fingering</name>
+        <family>MuseJass</family>
+        <size>8</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>center</valign>
+        <xoffset>0</xoffset>
+        <yoffset>-2</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>String Number</name>
+        <family>MuseJass</family>
+        <size>8</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        <frameWidthS>0.1</frameWidthS>
+        <paddingWidthS>0.2</paddingWidthS>
+        <frameRound>0</frameRound>
+        <frameColor r="0" g="0" b="0" a="255"/>
+        <circle>1</circle>
+        </TextStyle>
+      <TextStyle>
+        <halign>right</halign>
+        <valign>center</valign>
+        <offsetType>absolute</offsetType>
+        <name>Instrument Name (Long)</name>
+        <family>MuseJass</family>
+        <size>11</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>right</halign>
+        <valign>center</valign>
+        <offsetType>absolute</offsetType>
+        <name>Instrument Name (Short)</name>
+        <family>MuseJass</family>
+        <size>11</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>top</valign>
+        <offsetType>absolute</offsetType>
+        <name>Instrument Name (Part)</name>
+        <family>MuseJass</family>
+        <size>18</size>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>baseline</valign>
+        <xoffset>0</xoffset>
+        <yoffset>8</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Dynamics</name>
+        <family>MuseJass</family>
+        <size>12</size>
+        <italic>1</italic>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>baseline</valign>
+        <xoffset>0</xoffset>
+        <yoffset>-2</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Technique</name>
+        <family>MuseJass</family>
+        <size>12</size>
+        <italic>1</italic>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>baseline</valign>
+        <xoffset>0</xoffset>
+        <yoffset>-4</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Tempo</name>
+        <family>MuseJass</family>
+        <size>12</size>
+        <bold>1</bold>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        <systemFlag>1</systemFlag>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>top</valign>
+        <offsetType>spatium</offsetType>
+        <name>Metronome</name>
+        <family>MuseJass</family>
+        <size>12</size>
+        <bold>1</bold>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>bottom</valign>
+        <xoffset>0</xoffset>
+        <yoffset>-2</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Measure Number</name>
+        <family>MuseJass</family>
+        <size>8</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>top</valign>
+        <xoffset>0</xoffset>
+        <yoffset>6</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Translator</name>
+        <family>MuseJass</family>
+        <size>11</size>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>center</valign>
+        <offsetType>absolute</offsetType>
+        <name>Tuplet</name>
+        <family>MuseJass</family>
+        <size>10</size>
+        <italic>1</italic>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>top</valign>
+        <xoffset>0</xoffset>
+        <yoffset>-4</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>System</name>
+        <family>MuseJass</family>
+        <size>10</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        <systemFlag>1</systemFlag>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>top</valign>
+        <xoffset>0</xoffset>
+        <yoffset>-4</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Staff</name>
+        <family>MuseJass</family>
+        <size>10</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>baseline</valign>
+        <offsetType>spatium</offsetType>
+        <name>Chord Symbol</name>
+        <family>MuseJass</family>
+        <size>12</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>baseline</valign>
+        <xoffset>0</xoffset>
+        <yoffset>-3</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Rehearsal Mark</name>
+        <family>MuseJass</family>
+        <size>14</size>
+        <bold>1</bold>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        <frameWidthS>0.2</frameWidthS>
+        <paddingWidthS>0.5</paddingWidthS>
+        <frameRound>20</frameRound>
+        <frameColor r="0" g="0" b="0" a="255"/>
+        <systemFlag>1</systemFlag>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>baseline</valign>
+        <xoffset>0</xoffset>
+        <yoffset>-2</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Repeat Text Left</name>
+        <family>MuseJass</family>
+        <size>20</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        <systemFlag>1</systemFlag>
+        </TextStyle>
+      <TextStyle>
+        <halign>right</halign>
+        <valign>baseline</valign>
+        <xoffset>0</xoffset>
+        <yoffset>-2</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Repeat Text Right</name>
+        <family>MuseJass</family>
+        <size>12</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        <systemFlag>1</systemFlag>
+        </TextStyle>
+      <TextStyle>
+        <halign>right</halign>
+        <valign>baseline</valign>
+        <xoffset>0</xoffset>
+        <yoffset>-2</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Repeat Text</name>
+        <family>MuseJass</family>
+        <size>12</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        <systemFlag>1</systemFlag>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>baseline</valign>
+        <xoffset>0.5</xoffset>
+        <yoffset>1.9</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Volta</name>
+        <family>MuseJass</family>
+        <size>11</size>
+        <bold>1</bold>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>top</valign>
+        <offsetType>spatium</offsetType>
+        <name>Frame</name>
+        <family>MuseJass</family>
+        <size>12</size>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>center</valign>
+        <offsetType>spatium</offsetType>
+        <name>Text Line</name>
+        <family>MuseJass</family>
+        <size>12</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>baseline</valign>
+        <offsetType>spatium</offsetType>
+        <name>Glissando</name>
+        <family>MuseJass</family>
+        <size>8</size>
+        <italic>1</italic>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>center</valign>
+        <offsetType>spatium</offsetType>
+        <name>Ottava</name>
+        <family>MuseJass</family>
+        <size>12</size>
+        <italic>1</italic>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>baseline</valign>
+        <xoffset>0</xoffset>
+        <yoffset>0.15</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Pedal</name>
+        <family>MuseJass</family>
+        <size>12</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>baseline</valign>
+        <offsetType>spatium</offsetType>
+        <name>Hairpin</name>
+        <family>MuseJass</family>
+        <size>12</size>
+        <italic>1</italic>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>bottom</valign>
+        <offsetType>spatium</offsetType>
+        <name>Bend</name>
+        <family>MuseJass</family>
+        <size>8</size>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>top</valign>
+        <offsetType>spatium</offsetType>
+        <name>Header</name>
+        <family>MuseJass</family>
+        <size>8</size>
+        </TextStyle>
+      <TextStyle>
+        <halign>center</halign>
+        <valign>bottom</valign>
+        <xoffset>0</xoffset>
+        <yoffset>5</yoffset>
+        <offsetType>absolute</offsetType>
+        <name>Footer</name>
+        <family>MuseJass</family>
+        <size>8</size>
+        </TextStyle>
+      <TextStyle>
+        <halign>left</halign>
+        <valign>bottom</valign>
+        <xoffset>0</xoffset>
+        <yoffset>-3</yoffset>
+        <offsetType>spatium</offsetType>
+        <name>Instrument Change</name>
+        <family>MuseJass</family>
+        <size>12</size>
+        <bold>1</bold>
+        <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+        </TextStyle>
       <page-layout>
         <page-height>1683.36</page-height>
         <page-width>1190.88</page-width>
@@ -57,6 +462,63 @@
       </PageList>
     <Part>
       <Staff id="1">
+        <StaffType group="pitched">
+          <name>stdNormal</name>
+          </StaffType>
+        <bracket type="-1" span="0"/>
+        </Staff>
+      <trackName>Trompete in B</trackName>
+      <Instrument>
+        <longName>Trompete in B</longName>
+        <shortName>B Tpt.</shortName>
+        <trackName>Trompete in B</trackName>
+        <minPitchP>52</minPitchP>
+        <maxPitchP>85</maxPitchP>
+        <minPitchA>52</minPitchA>
+        <maxPitchA>80</maxPitchA>
+        <transposeDiatonic>-1</transposeDiatonic>
+        <transposeChromatic>-2</transposeChromatic>
+        <instrumentId>brass.trumpet.bflat</instrumentId>
+        <Articulation>
+          <velocity>100</velocity>
+          <gateTime>100</gateTime>
+          </Articulation>
+        <Articulation name="staccatissimo">
+          <velocity>100</velocity>
+          <gateTime>33</gateTime>
+          </Articulation>
+        <Articulation name="staccato">
+          <velocity>100</velocity>
+          <gateTime>50</gateTime>
+          </Articulation>
+        <Articulation name="portato">
+          <velocity>100</velocity>
+          <gateTime>67</gateTime>
+          </Articulation>
+        <Articulation name="tenuto">
+          <velocity>100</velocity>
+          <gateTime>100</gateTime>
+          </Articulation>
+        <Articulation name="marcato">
+          <velocity>120</velocity>
+          <gateTime>67</gateTime>
+          </Articulation>
+        <Articulation name="sforzato">
+          <velocity>120</velocity>
+          <gateTime>100</gateTime>
+          </Articulation>
+        <Channel>
+          <program value="56"/>
+          <synti>Fluid</synti>
+          </Channel>
+        <Channel name="mute">
+          <program value="59"/>
+          <synti>Fluid</synti>
+          </Channel>
+        </Instrument>
+      </Part>
+    <Part>
+      <Staff id="2">
         <StaffType group="pitched">
           <name>stdNormal</name>
           </StaffType>
@@ -110,57 +572,144 @@
       </Part>
     <Staff id="1">
       <VBox>
-        <height>10</height>
-        <lid>0</lid>
+        <height>4.8353</height>
+        <lid>1</lid>
         <Text>
-          <lid>1</lid>
+          <lid>2</lid>
           <style>Title</style>
           <text>25. Kommt herab, ihr Himmelsfürsten</text>
           </Text>
         </VBox>
       <Measure number="1">
         <KeySig>
-          <lid>2</lid>
+          <accidental>0</accidental>
+          </KeySig>
+        <TimeSig>
+          <sigN>4</sigN>
+          <sigD>4</sigD>
+          <showCourtesySig>1</showCourtesySig>
+          </TimeSig>
+        <Rest>
+          <durationType>measure</durationType>
+          <duration z="4" n="4"/>
+          </Rest>
+        </Measure>
+      <Measure number="2">
+        <Rest>
+          <durationType>measure</durationType>
+          <duration z="4" n="4"/>
+          </Rest>
+        </Measure>
+      <Measure number="3">
+        <Rest>
+          <durationType>measure</durationType>
+          <duration z="4" n="4"/>
+          </Rest>
+        </Measure>
+      <Measure number="4">
+        <endRepeat>2</endRepeat>
+        <Rest>
+          <durationType>measure</durationType>
+          <duration z="4" n="4"/>
+          </Rest>
+        </Measure>
+      <Measure number="5">
+        <Rest>
+          <durationType>measure</durationType>
+          <duration z="4" n="4"/>
+          </Rest>
+        </Measure>
+      <Measure number="6">
+        <Rest>
+          <durationType>measure</durationType>
+          <duration z="4" n="4"/>
+          </Rest>
+        </Measure>
+      <Measure number="7">
+        <Rest>
+          <durationType>measure</durationType>
+          <duration z="4" n="4"/>
+          </Rest>
+        </Measure>
+      <Measure number="8">
+        <Rest>
+          <durationType>measure</durationType>
+          <duration z="4" n="4"/>
+          </Rest>
+        </Measure>
+      <Measure number="9">
+        <Rest>
+          <durationType>measure</durationType>
+          <duration z="4" n="4"/>
+          </Rest>
+        </Measure>
+      <Measure number="10">
+        <Rest>
+          <durationType>measure</durationType>
+          <duration z="4" n="4"/>
+          </Rest>
+        </Measure>
+      <Measure number="11">
+        <Rest>
+          <durationType>measure</durationType>
+          <duration z="4" n="4"/>
+          </Rest>
+        </Measure>
+      <Measure number="12">
+        <Rest>
+          <durationType>measure</durationType>
+          <duration z="4" n="4"/>
+          </Rest>
+        <BarLine>
+          <subtype>end</subtype>
+          <span>1</span>
+          </BarLine>
+        </Measure>
+      </Staff>
+    <Staff id="2">
+      <Measure number="1">
+        <KeySig>
+          <lid>3</lid>
           <accidental>-2</accidental>
           </KeySig>
         <TimeSig>
-          <lid>3</lid>
+          <lid>4</lid>
           <sigN>4</sigN>
           <sigD>4</sigD>
           <showCourtesySig>1</showCourtesySig>
           </TimeSig>
         <Chord>
-          <lid>4</lid>
+          <lid>5</lid>
           <durationType>quarter</durationType>
           <Note>
-            <lid>5</lid>
+            <lid>6</lid>
             <pitch>34</pitch>
             <tpc>12</tpc>
             </Note>
           </Chord>
         <Chord>
-          <lid>6</lid>
+          <lid>7</lid>
           <durationType>quarter</durationType>
           <Note>
-            <lid>7</lid>
+            <lid>8</lid>
             <pitch>34</pitch>
             <tpc>12</tpc>
             </Note>
           </Chord>
         <Chord>
-          <lid>8</lid>
+          <lid>9</lid>
           <durationType>quarter</durationType>
           <Note>
-            <lid>9</lid>
+            <lid>10</lid>
             <pitch>39</pitch>
             <tpc>11</tpc>
             </Note>
           </Chord>
         <Chord>
-          <lid>10</lid>
+          <lid>11</lid>
           <durationType>quarter</durationType>
           <Note>
-            <lid>11</lid>
+            <lid>12</lid>
             <pitch>39</pitch>
             <tpc>11</tpc>
             </Note>
@@ -210,122 +759,121 @@
         </Measure>
       <Measure number="3">
         <Chord>
-          <lid>23</lid>
+          <lid>22</lid>
           <durationType>quarter</durationType>
           <Note>
-            <lid>24</lid>
+            <lid>23</lid>
             <pitch>34</pitch>
             <tpc>12</tpc>
             </Note>
           </Chord>
         <Chord>
-          <lid>25</lid>
+          <lid>24</lid>
           <durationType>quarter</durationType>
           <Note>
-            <lid>26</lid>
+            <lid>25</lid>
             <pitch>34</pitch>
             <tpc>12</tpc>
             </Note>
           </Chord>
         <Chord>
-          <lid>27</lid>
+          <lid>26</lid>
           <durationType>quarter</durationType>
           <Note>
-            <lid>28</lid>
+            <lid>27</lid>
             <pitch>33</pitch>
             <tpc>17</tpc>
             </Note>
           </Chord>
         <Chord>
-          <lid>29</lid>
+          <lid>28</lid>
           <durationType>eighth</durationType>
           <Note>
-            <lid>30</lid>
+            <lid>29</lid>
             <pitch>38</pitch>
             <tpc>16</tpc>
             </Note>
           </Chord>
         <Chord>
-          <lid>31</lid>
+          <lid>30</lid>
           <durationType>eighth</durationType>
           <Note>
-            <lid>32</lid>
+            <lid>31</lid>
             <pitch>36</pitch>
             <tpc>14</tpc>
             </Note>
           </Chord>
         </Measure>
       <Measure number="4">
-        <endRepeat>2</endRepeat>
+        <Chord>
+          <lid>32</lid>
+          <durationType>quarter</durationType>
+          <Note>
+            <lid>33</lid>
+            <pitch>34</pitch>
+            <tpc>12</tpc>
+            </Note>
+          </Chord>
         <Chord>
           <lid>34</lid>
           <durationType>quarter</durationType>
           <Note>
             <lid>35</lid>
-            <pitch>34</pitch>
-            <tpc>12</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <lid>36</lid>
-          <durationType>quarter</durationType>
-          <Note>
-            <lid>37</lid>
             <pitch>36</pitch>
             <tpc>14</tpc>
             </Note>
           </Chord>
         <Chord>
-          <lid>39</lid>
+          <lid>37</lid>
           <durationType>quarter</durationType>
           <Articulation>
             <subtype>fermata</subtype>
-            <lid>38</lid>
+            <lid>36</lid>
             </Articulation>
           <Note>
-            <lid>40</lid>
+            <lid>38</lid>
             <pitch>41</pitch>
             <tpc>13</tpc>
             </Note>
           </Chord>
         <Rest>
-          <lid>41</lid>
+          <lid>39</lid>
           <durationType>quarter</durationType>
           </Rest>
         </Measure>
       <Measure number="5">
         <Chord>
-          <lid>43</lid>
+          <lid>40</lid>
           <durationType>quarter</durationType>
           <Note>
-            <lid>44</lid>
+            <lid>41</lid>
             <pitch>38</pitch>
             <tpc>16</tpc>
             </Note>
           </Chord>
         <Chord>
-          <lid>45</lid>
+          <lid>42</lid>
           <durationType>quarter</durationType>
           <Note>
-            <lid>46</lid>
+            <lid>43</lid>
             <pitch>36</pitch>
             <tpc>14</tpc>
             </Note>
           </Chord>
         <Chord>
-          <lid>47</lid>
+          <lid>44</lid>
           <durationType>quarter</durationType>
           <Note>
-            <lid>48</lid>
+            <lid>45</lid>
             <pitch>34</pitch>
             <tpc>12</tpc>
             </Note>
           </Chord>
         <Chord>
-          <lid>49</lid>
+          <lid>46</lid>
           <durationType>quarter</durationType>
           <Note>
-            <lid>50</lid>
+            <lid>47</lid>
             <pitch>38</pitch>
             <tpc>16</tpc>
             </Note>
@@ -333,41 +881,41 @@
         </Measure>
       <Measure number="6">
         <Chord>
-          <lid>52</lid>
+          <lid>48</lid>
           <durationType>quarter</durationType>
           <Note>
-            <lid>53</lid>
+            <lid>49</lid>
             <pitch>36</pitch>
             <tpc>14</tpc>
             </Note>
           </Chord>
         <Chord>
-          <lid>54</lid>
+          <lid>50</lid>
           <durationType>quarter</durationType>
           <Note>
-            <lid>55</lid>
+            <lid>51</lid>
             <pitch>34</pitch>
             <tpc>12</tpc>
             </Note>
           </Chord>
         <Chord>
-          <lid>56</lid>
+          <lid>52</lid>
           <durationType>quarter</durationType>
           <Note>
-            <lid>57</lid>
+            <lid>53</lid>
             <pitch>41</pitch>
             <tpc>13</tpc>
             </Note>
           </Chord>
         <Chord>
-          <lid>59</lid>
+          <lid>55</lid>
           <durationType>quarter</durationType>
           <Articulation>
             <subtype>fermata</subtype>
-            <lid>58</lid>
+            <lid>54</lid>
             </Articulation>
           <Note>
-            <lid>60</lid>
+            <lid>56</lid>
             <pitch>41</pitch>
             <tpc>13</tpc>
             </Note>
@@ -375,37 +923,37 @@
         </Measure>
       <Measure number="7">
         <Chord>
-          <lid>62</lid>
+          <lid>57</lid>
           <durationType>quarter</durationType>
           <Note>
-            <lid>63</lid>
+            <lid>58</lid>
             <pitch>38</pitch>
             <tpc>16</tpc>
             </Note>
           </Chord>
         <Chord>
-          <lid>64</lid>
+          <lid>59</lid>
           <durationType>quarter</durationType>
           <Note>
-            <lid>65</lid>
+            <lid>60</lid>
             <pitch>36</pitch>
             <tpc>14</tpc>
             </Note>
           </Chord>
         <Chord>
-          <lid>66</lid>
+          <lid>61</lid>
           <durationType>quarter</durationType>
           <Note>
-            <lid>67</lid>
+            <lid>62</lid>
             <pitch>34</pitch>
             <tpc>12</tpc>
             </Note>
           </Chord>
         <Chord>
-          <lid>68</lid>
+          <lid>63</lid>
           <durationType>quarter</durationType>
           <Note>
-            <lid>69</lid>
+            <lid>64</lid>
             <pitch>38</pitch>
             <tpc>16</tpc>
             </Note>
@@ -413,41 +961,41 @@
         </Measure>
       <Measure number="8">
         <Chord>
-          <lid>71</lid>
+          <lid>65</lid>
           <durationType>quarter</durationType>
           <Note>
-            <lid>72</lid>
+            <lid>66</lid>
             <pitch>36</pitch>
             <tpc>14</tpc>
             </Note>
           </Chord>
         <Chord>
-          <lid>73</lid>
+          <lid>67</lid>
           <durationType>quarter</durationType>
           <Note>
-            <lid>74</lid>
+            <lid>68</lid>
             <pitch>34</pitch>
             <tpc>12</tpc>
             </Note>
           </Chord>
         <Chord>
-          <lid>75</lid>
+          <lid>69</lid>
           <durationType>quarter</durationType>
           <Note>
-            <lid>76</lid>
+            <lid>70</lid>
             <pitch>41</pitch>
             <tpc>13</tpc>
             </Note>
           </Chord>
         <Chord>
-          <lid>78</lid>
+          <lid>72</lid>
           <durationType>quarter</durationType>
           <Articulation>
             <subtype>fermata</subtype>
-            <lid>77</lid>
+            <lid>71</lid>
             </Articulation>
           <Note>
-            <lid>79</lid>
+            <lid>73</lid>
             <pitch>41</pitch>
             <tpc>13</tpc>
             </Note>
@@ -455,37 +1003,37 @@
         </Measure>
       <Measure number="9">
         <Chord>
-          <lid>81</lid>
+          <lid>74</lid>
           <durationType>quarter</durationType>
           <Note>
-            <lid>82</lid>
+            <lid>75</lid>
             <pitch>34</pitch>
             <tpc>12</tpc>
             </Note>
           </Chord>
         <Chord>
-          <lid>83</lid>
+          <lid>76</lid>
           <durationType>quarter</durationType>
           <Note>
-            <lid>84</lid>
+            <lid>77</lid>
             <pitch>38</pitch>
             <tpc>16</tpc>
             </Note>
           </Chord>
         <Chord>
-          <lid>85</lid>
+          <lid>78</lid>
           <durationType>quarter</durationType>
           <Note>
-            <lid>86</lid>
+            <lid>79</lid>
             <pitch>39</pitch>
             <tpc>11</tpc>
             </Note>
           </Chord>
         <Chord>
-          <lid>87</lid>
+          <lid>80</lid>
           <durationType>quarter</durationType>
           <Note>
-            <lid>88</lid>
+            <lid>81</lid>
             <pitch>38</pitch>
             <tpc>16</tpc>
             </Note>
@@ -493,19 +1041,19 @@
         </Measure>
       <Measure number="10">
         <Chord>
-          <lid>90</lid>
+          <lid>82</lid>
           <durationType>quarter</durationType>
           <Note>
-            <lid>91</lid>
+            <lid>83</lid>
             <pitch>36</pitch>
             <tpc>14</tpc>
             </Note>
           </Chord>
         <Chord>
-          <lid>92</lid>
+          <lid>84</lid>
           <durationType>quarter</durationType>
           <Note>
-            <lid>93</lid>
+            <lid>85</lid>
             <Accidental>
               <subtype>natural</subtype>
               </Accidental>
@@ -514,56 +1062,56 @@
             </Note>
           </Chord>
         <Chord>
-          <lid>95</lid>
+          <lid>87</lid>
           <durationType>quarter</durationType>
           <Articulation>
             <subtype>fermata</subtype>
-            <lid>94</lid>
+            <lid>86</lid>
             </Articulation>
           <Note>
-            <lid>96</lid>
+            <lid>88</lid>
             <pitch>41</pitch>
             <tpc>13</tpc>
             </Note>
           </Chord>
         <Rest>
-          <lid>97</lid>
+          <lid>89</lid>
           <durationType>quarter</durationType>
           </Rest>
         </Measure>
       <Measure number="11">
         <Chord>
-          <lid>99</lid>
+          <lid>90</lid>
           <durationType>quarter</durationType>
           <Note>
-            <lid>100</lid>
+            <lid>91</lid>
             <pitch>38</pitch>
             <tpc>16</tpc>
             </Note>
           </Chord>
         <Chord>
-          <lid>101</lid>
+          <lid>92</lid>
           <durationType>quarter</durationType>
           <Note>
-            <lid>102</lid>
+            <lid>93</lid>
             <pitch>36</pitch>
             <tpc>14</tpc>
             </Note>
           </Chord>
         <Chord>
-          <lid>103</lid>
+          <lid>94</lid>
           <durationType>quarter</durationType>
           <Note>
-            <lid>104</lid>
+            <lid>95</lid>
             <pitch>34</pitch>
             <tpc>12</tpc>
             </Note>
           </Chord>
         <Chord>
-          <lid>105</lid>
+          <lid>96</lid>
           <durationType>quarter</durationType>
           <Note>
-            <lid>106</lid>
+            <lid>97</lid>
             <pitch>39</pitch>
             <tpc>11</tpc>
             </Note>
@@ -571,44 +1119,44 @@
         </Measure>
       <Measure number="12">
         <Chord>
-          <lid>108</lid>
+          <lid>98</lid>
           <durationType>quarter</durationType>
           <Note>
-            <lid>109</lid>
+            <lid>99</lid>
             <pitch>41</pitch>
             <tpc>13</tpc>
             </Note>
           </Chord>
         <Chord>
-          <lid>110</lid>
+          <lid>100</lid>
           <durationType>quarter</durationType>
           <Note>
-            <lid>111</lid>
+            <lid>101</lid>
             <pitch>41</pitch>
             <tpc>13</tpc>
             </Note>
           </Chord>
         <Chord>
-          <lid>113</lid>
+          <lid>103</lid>
           <durationType>quarter</durationType>
           <Articulation>
             <subtype>fermata</subtype>
-            <lid>112</lid>
+            <lid>102</lid>
             </Articulation>
           <Note>
-            <lid>114</lid>
+            <lid>104</lid>
             <pitch>34</pitch>
             <tpc>12</tpc>
             </Note>
           </Chord>
         <Rest>
-          <lid>115</lid>
+          <lid>105</lid>
           <durationType>quarter</durationType>
           </Rest>
         <BarLine>
           <subtype>end</subtype>
           <span>1</span>
-          <lid>116</lid>
+          <lid>106</lid>
           </BarLine>
         </Measure>
       </Staff>
@@ -619,23 +1167,384 @@
         </Synthesizer>
       <Division>480</Division>
       <Style>
+        <staffDistance>2.5</staffDistance>
+        <minSystemDistance>2.5</minSystemDistance>
+        <lyricsLineHeight>0.1</lyricsLineHeight>
+        <systemFrameDistance>0</systemFrameDistance>
+        <frameSystemDistance>3</frameSystemDistance>
         <lastSystemFillLimit>0</lastSystemFillLimit>
         <createMultiMeasureRests>1</createMultiMeasureRests>
+        <TextStyle>
+          <halign>left</halign>
+          <valign>baseline</valign>
+          <offsetType>spatium</offsetType>
+          <family>FreeSerif</family>
+          <size>10</size>
+          </TextStyle>
         <TextStyle>
           <halign>center</halign>
           <valign>top</valign>
           <offsetType>absolute</offsetType>
           <name>Title</name>
+          <family>MuseJazz</family>
+          <size>12</size>
+          </TextStyle>
+        <TextStyle>
+          <halign>center</halign>
+          <valign>top</valign>
+          <xoffset>0</xoffset>
+          <yoffset>10</yoffset>
+          <offsetType>absolute</offsetType>
+          <name>Subtitle</name>
+          <family>FreeSerif</family>
+          <size>14</size>
+          </TextStyle>
+        <TextStyle>
+          <halign>right</halign>
+          <valign>bottom</valign>
+          <offsetType>absolute</offsetType>
+          <name>Composer</name>
           <family>FreeSerif</family>
           <size>12</size>
+          </TextStyle>
+        <TextStyle>
+          <halign>left</halign>
+          <valign>bottom</valign>
+          <offsetType>absolute</offsetType>
+          <name>Lyricist</name>
+          <family>FreeSerif</family>
+          <size>12</size>
+          </TextStyle>
+        <TextStyle>
+          <halign>center</halign>
+          <valign>baseline</valign>
+          <xoffset>0</xoffset>
+          <yoffset>6</yoffset>
+          <offsetType>spatium</offsetType>
+          <name>Lyrics Odd Lines</name>
+          <family>FreeSerif</family>
+          <size>11</size>
+          <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+          </TextStyle>
+        <TextStyle>
+          <halign>center</halign>
+          <valign>baseline</valign>
+          <xoffset>0</xoffset>
+          <yoffset>6</yoffset>
+          <offsetType>spatium</offsetType>
+          <name>Lyrics Even Lines</name>
+          <family>FreeSerif</family>
+          <size>11</size>
+          <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+          </TextStyle>
+        <TextStyle>
+          <halign>center</halign>
+          <valign>center</valign>
+          <offsetType>spatium</offsetType>
+          <name>Fingering</name>
+          <family>FreeSerif</family>
+          <size>8</size>
+          <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+          </TextStyle>
+        <TextStyle>
+          <halign>right</halign>
+          <valign>center</valign>
+          <xoffset>-0.5</xoffset>
+          <yoffset>0</yoffset>
+          <offsetType>spatium</offsetType>
+          <name>LH Guitar Fingering</name>
+          <family>FreeSerif</family>
+          <size>8</size>
+          <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+          </TextStyle>
+        <TextStyle>
+          <halign>center</halign>
+          <valign>center</valign>
+          <offsetType>spatium</offsetType>
+          <name>RH Guitar Fingering</name>
+          <family>FreeSerif</family>
+          <size>8</size>
+          <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+          </TextStyle>
+        <TextStyle>
+          <halign>right</halign>
+          <valign>center</valign>
+          <offsetType>absolute</offsetType>
+          <name>Instrument Name (Long)</name>
+          <family>MuseJazz</family>
+          <size>12</size>
+          <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+          </TextStyle>
+        <TextStyle>
+          <halign>right</halign>
+          <valign>center</valign>
+          <offsetType>absolute</offsetType>
+          <name>Instrument Name (Short)</name>
+          <family>MuseJazz</family>
+          <size>12</size>
+          <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
           </TextStyle>
         <TextStyle>
           <halign>left</halign>
           <valign>top</valign>
           <offsetType>absolute</offsetType>
           <name>Instrument Name (Part)</name>
+          <family>MuseJazz</family>
+          <size>11</size>
+          </TextStyle>
+        <TextStyle>
+          <halign>center</halign>
+          <valign>baseline</valign>
+          <xoffset>0</xoffset>
+          <yoffset>8</yoffset>
+          <offsetType>spatium</offsetType>
+          <name>Dynamics</name>
           <family>FreeSerif</family>
           <size>12</size>
+          <italic>1</italic>
+          <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+          </TextStyle>
+        <TextStyle>
+          <halign>left</halign>
+          <valign>baseline</valign>
+          <xoffset>0</xoffset>
+          <yoffset>-2</yoffset>
+          <offsetType>spatium</offsetType>
+          <name>Technique</name>
+          <family>FreeSerif</family>
+          <size>12</size>
+          <italic>1</italic>
+          <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+          </TextStyle>
+        <TextStyle>
+          <halign>left</halign>
+          <valign>baseline</valign>
+          <xoffset>0</xoffset>
+          <yoffset>-4</yoffset>
+          <offsetType>spatium</offsetType>
+          <name>Tempo</name>
+          <family>FreeSerif</family>
+          <size>12</size>
+          <bold>1</bold>
+          <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+          <systemFlag>1</systemFlag>
+          </TextStyle>
+        <TextStyle>
+          <halign>left</halign>
+          <valign>top</valign>
+          <offsetType>spatium</offsetType>
+          <name>Metronome</name>
+          <family>FreeSerif</family>
+          <size>12</size>
+          <bold>1</bold>
+          </TextStyle>
+        <TextStyle>
+          <halign>center</halign>
+          <valign>bottom</valign>
+          <xoffset>0</xoffset>
+          <yoffset>-2</yoffset>
+          <offsetType>spatium</offsetType>
+          <name>Measure Number</name>
+          <family>FreeSerif</family>
+          <size>8</size>
+          <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+          </TextStyle>
+        <TextStyle>
+          <halign>center</halign>
+          <valign>top</valign>
+          <xoffset>0</xoffset>
+          <yoffset>6</yoffset>
+          <offsetType>spatium</offsetType>
+          <name>Translator</name>
+          <family>FreeSerif</family>
+          <size>11</size>
+          </TextStyle>
+        <TextStyle>
+          <halign>center</halign>
+          <valign>center</valign>
+          <offsetType>absolute</offsetType>
+          <name>Tuplet</name>
+          <family>FreeSerif</family>
+          <size>10</size>
+          <italic>1</italic>
+          <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+          </TextStyle>
+        <TextStyle>
+          <halign>left</halign>
+          <valign>top</valign>
+          <xoffset>0</xoffset>
+          <yoffset>-4</yoffset>
+          <offsetType>spatium</offsetType>
+          <name>System</name>
+          <family>FreeSerif</family>
+          <size>10</size>
+          <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+          <systemFlag>1</systemFlag>
+          </TextStyle>
+        <TextStyle>
+          <halign>left</halign>
+          <valign>top</valign>
+          <xoffset>0</xoffset>
+          <yoffset>-4</yoffset>
+          <offsetType>spatium</offsetType>
+          <name>Staff</name>
+          <family>FreeSerif</family>
+          <size>10</size>
+          <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+          </TextStyle>
+        <TextStyle>
+          <halign>left</halign>
+          <valign>baseline</valign>
+          <offsetType>spatium</offsetType>
+          <name>Chord Symbol</name>
+          <family>FreeSerif</family>
+          <size>12</size>
+          <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+          </TextStyle>
+        <TextStyle>
+          <halign>left</halign>
+          <valign>baseline</valign>
+          <xoffset>0</xoffset>
+          <yoffset>-2</yoffset>
+          <offsetType>spatium</offsetType>
+          <name>Repeat Text Left</name>
+          <family>FreeSerif</family>
+          <size>20</size>
+          <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+          <systemFlag>1</systemFlag>
+          </TextStyle>
+        <TextStyle>
+          <halign>right</halign>
+          <valign>baseline</valign>
+          <xoffset>0</xoffset>
+          <yoffset>-2</yoffset>
+          <offsetType>spatium</offsetType>
+          <name>Repeat Text Right</name>
+          <family>FreeSerif</family>
+          <size>12</size>
+          <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+          <systemFlag>1</systemFlag>
+          </TextStyle>
+        <TextStyle>
+          <halign>right</halign>
+          <valign>baseline</valign>
+          <xoffset>0</xoffset>
+          <yoffset>-2</yoffset>
+          <offsetType>spatium</offsetType>
+          <name>Repeat Text</name>
+          <family>FreeSerif</family>
+          <size>12</size>
+          <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+          <systemFlag>1</systemFlag>
+          </TextStyle>
+        <TextStyle>
+          <halign>left</halign>
+          <valign>baseline</valign>
+          <xoffset>0.5</xoffset>
+          <yoffset>1.9</yoffset>
+          <offsetType>spatium</offsetType>
+          <name>Volta</name>
+          <family>FreeSerif</family>
+          <size>11</size>
+          <bold>1</bold>
+          <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+          </TextStyle>
+        <TextStyle>
+          <halign>left</halign>
+          <valign>top</valign>
+          <offsetType>spatium</offsetType>
+          <name>Frame</name>
+          <family>FreeSerif</family>
+          <size>12</size>
+          </TextStyle>
+        <TextStyle>
+          <halign>left</halign>
+          <valign>center</valign>
+          <offsetType>spatium</offsetType>
+          <name>Text Line</name>
+          <family>FreeSerif</family>
+          <size>12</size>
+          <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+          </TextStyle>
+        <TextStyle>
+          <halign>center</halign>
+          <valign>baseline</valign>
+          <offsetType>spatium</offsetType>
+          <name>Glissando</name>
+          <family>FreeSerif</family>
+          <size>8</size>
+          <italic>1</italic>
+          <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+          </TextStyle>
+        <TextStyle>
+          <halign>left</halign>
+          <valign>center</valign>
+          <offsetType>spatium</offsetType>
+          <name>Ottava</name>
+          <family>FreeSerif</family>
+          <size>12</size>
+          <italic>1</italic>
+          <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+          </TextStyle>
+        <TextStyle>
+          <halign>left</halign>
+          <valign>baseline</valign>
+          <xoffset>0</xoffset>
+          <yoffset>0.15</yoffset>
+          <offsetType>spatium</offsetType>
+          <name>Pedal</name>
+          <family>FreeSerif</family>
+          <size>12</size>
+          <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+          </TextStyle>
+        <TextStyle>
+          <halign>left</halign>
+          <valign>baseline</valign>
+          <offsetType>spatium</offsetType>
+          <name>Hairpin</name>
+          <family>FreeSerif</family>
+          <size>12</size>
+          <italic>1</italic>
+          <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+          </TextStyle>
+        <TextStyle>
+          <halign>center</halign>
+          <valign>bottom</valign>
+          <offsetType>spatium</offsetType>
+          <name>Bend</name>
+          <family>FreeSerif</family>
+          <size>8</size>
+          <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
+          </TextStyle>
+        <TextStyle>
+          <halign>center</halign>
+          <valign>top</valign>
+          <offsetType>spatium</offsetType>
+          <name>Header</name>
+          <family>FreeSerif</family>
+          <size>8</size>
+          </TextStyle>
+        <TextStyle>
+          <halign>center</halign>
+          <valign>bottom</valign>
+          <xoffset>0</xoffset>
+          <yoffset>5</yoffset>
+          <offsetType>absolute</offsetType>
+          <name>Footer</name>
+          <family>FreeSerif</family>
+          <size>8</size>
+          </TextStyle>
+        <TextStyle>
+          <halign>left</halign>
+          <valign>bottom</valign>
+          <xoffset>0</xoffset>
+          <yoffset>-3</yoffset>
+          <offsetType>spatium</offsetType>
+          <name>Instrument Change</name>
+          <family>FreeSerif</family>
+          <size>12</size>
+          <bold>1</bold>
+          <sizeIsSpatiumDependent>1</sizeIsSpatiumDependent>
           </TextStyle>
         <page-layout>
           <page-height>595.276</page-height>
@@ -668,7 +1577,7 @@
         </PageList>
       <Part>
         <Staff id="1">
-          <linkedTo>1</linkedTo>
+          <linkedTo>2</linkedTo>
           <StaffType group="pitched">
             <name>stdNormal</name>
             </StaffType>
@@ -723,61 +1632,61 @@
       <Staff id="1">
         <VBox>
           <height>3.18438</height>
-          <lid>0</lid>
+          <lid>1</lid>
           <Text>
-            <lid>1</lid>
+            <lid>2</lid>
             <style>Title</style>
             <text>25. Kommt herab, ihr Himmelsfürsten</text>
             </Text>
           <Text>
-            <pos x="-0.150084" y="6.15313"/>
+            <pos x="-0.150084" y="3.15201"/>
             <style>Instrument Name (Part)</style>
             <text>Tuba</text>
             </Text>
           </VBox>
         <Measure number="1">
           <KeySig>
-            <lid>2</lid>
+            <lid>3</lid>
             <accidental>-2</accidental>
             </KeySig>
           <TimeSig>
-            <lid>3</lid>
+            <lid>4</lid>
             <sigN>4</sigN>
             <sigD>4</sigD>
             <showCourtesySig>1</showCourtesySig>
             </TimeSig>
           <Chord>
-            <lid>4</lid>
+            <lid>5</lid>
             <durationType>quarter</durationType>
             <Note>
-              <lid>5</lid>
+              <lid>6</lid>
               <pitch>34</pitch>
               <tpc>12</tpc>
               </Note>
             </Chord>
           <Chord>
-            <lid>6</lid>
+            <lid>7</lid>
             <durationType>quarter</durationType>
             <Note>
-              <lid>7</lid>
+              <lid>8</lid>
               <pitch>34</pitch>
               <tpc>12</tpc>
               </Note>
             </Chord>
           <Chord>
-            <lid>8</lid>
+            <lid>9</lid>
             <durationType>quarter</durationType>
             <Note>
-              <lid>9</lid>
+              <lid>10</lid>
               <pitch>39</pitch>
               <tpc>11</tpc>
               </Note>
             </Chord>
           <Chord>
-            <lid>10</lid>
+            <lid>11</lid>
             <durationType>quarter</durationType>
             <Note>
-              <lid>11</lid>
+              <lid>12</lid>
               <pitch>39</pitch>
               <tpc>11</tpc>
               </Note>
@@ -827,46 +1736,46 @@
           </Measure>
         <Measure number="3">
           <Chord>
-            <lid>23</lid>
+            <lid>22</lid>
             <durationType>quarter</durationType>
             <Note>
-              <lid>24</lid>
+              <lid>23</lid>
               <pitch>34</pitch>
               <tpc>12</tpc>
               </Note>
             </Chord>
           <Chord>
-            <lid>25</lid>
+            <lid>24</lid>
             <durationType>quarter</durationType>
             <Note>
-              <lid>26</lid>
+              <lid>25</lid>
               <pitch>34</pitch>
               <tpc>12</tpc>
               </Note>
             </Chord>
           <Chord>
-            <lid>27</lid>
+            <lid>26</lid>
             <durationType>quarter</durationType>
             <Note>
-              <lid>28</lid>
+              <lid>27</lid>
               <pitch>33</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
-            <lid>29</lid>
+            <lid>28</lid>
             <durationType>eighth</durationType>
             <Note>
-              <lid>30</lid>
+              <lid>29</lid>
               <pitch>38</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
-            <lid>31</lid>
+            <lid>30</lid>
             <durationType>eighth</durationType>
             <Note>
-              <lid>32</lid>
+              <lid>31</lid>
               <pitch>36</pitch>
               <tpc>14</tpc>
               </Note>
@@ -875,74 +1784,74 @@
         <Measure number="4">
           <endRepeat>2</endRepeat>
           <Chord>
-            <lid>34</lid>
+            <lid>32</lid>
             <durationType>quarter</durationType>
             <Note>
-              <lid>35</lid>
+              <lid>33</lid>
               <pitch>34</pitch>
               <tpc>12</tpc>
               </Note>
             </Chord>
           <Chord>
-            <lid>36</lid>
+            <lid>34</lid>
             <durationType>quarter</durationType>
             <Note>
-              <lid>37</lid>
+              <lid>35</lid>
               <pitch>36</pitch>
               <tpc>14</tpc>
               </Note>
             </Chord>
           <Chord>
-            <lid>39</lid>
+            <lid>37</lid>
             <durationType>quarter</durationType>
             <Articulation>
               <subtype>fermata</subtype>
-              <lid>38</lid>
+              <lid>36</lid>
               </Articulation>
             <Note>
-              <lid>40</lid>
+              <lid>38</lid>
               <pitch>41</pitch>
               <tpc>13</tpc>
               </Note>
             </Chord>
           <Rest>
-            <lid>41</lid>
+            <lid>39</lid>
             <durationType>quarter</durationType>
             </Rest>
           </Measure>
         <Measure number="5">
           <Chord>
-            <lid>43</lid>
+            <lid>40</lid>
             <durationType>quarter</durationType>
             <Note>
-              <lid>44</lid>
+              <lid>41</lid>
               <pitch>38</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
-            <lid>45</lid>
+            <lid>42</lid>
             <durationType>quarter</durationType>
             <Note>
-              <lid>46</lid>
+              <lid>43</lid>
               <pitch>36</pitch>
               <tpc>14</tpc>
               </Note>
             </Chord>
           <Chord>
-            <lid>47</lid>
+            <lid>44</lid>
             <durationType>quarter</durationType>
             <Note>
-              <lid>48</lid>
+              <lid>45</lid>
               <pitch>34</pitch>
               <tpc>12</tpc>
               </Note>
             </Chord>
           <Chord>
-            <lid>49</lid>
+            <lid>46</lid>
             <durationType>quarter</durationType>
             <Note>
-              <lid>50</lid>
+              <lid>47</lid>
               <pitch>38</pitch>
               <tpc>16</tpc>
               </Note>
@@ -950,41 +1859,41 @@
           </Measure>
         <Measure number="6">
           <Chord>
-            <lid>52</lid>
+            <lid>48</lid>
             <durationType>quarter</durationType>
             <Note>
-              <lid>53</lid>
+              <lid>49</lid>
               <pitch>36</pitch>
               <tpc>14</tpc>
               </Note>
             </Chord>
           <Chord>
-            <lid>54</lid>
+            <lid>50</lid>
             <durationType>quarter</durationType>
             <Note>
-              <lid>55</lid>
+              <lid>51</lid>
               <pitch>34</pitch>
               <tpc>12</tpc>
               </Note>
             </Chord>
           <Chord>
-            <lid>56</lid>
+            <lid>52</lid>
             <durationType>quarter</durationType>
             <Note>
-              <lid>57</lid>
+              <lid>53</lid>
               <pitch>41</pitch>
               <tpc>13</tpc>
               </Note>
             </Chord>
           <Chord>
-            <lid>59</lid>
+            <lid>55</lid>
             <durationType>quarter</durationType>
             <Articulation>
               <subtype>fermata</subtype>
-              <lid>58</lid>
+              <lid>54</lid>
               </Articulation>
             <Note>
-              <lid>60</lid>
+              <lid>56</lid>
               <pitch>41</pitch>
               <tpc>13</tpc>
               </Note>
@@ -992,37 +1901,37 @@
           </Measure>
         <Measure number="7">
           <Chord>
-            <lid>62</lid>
+            <lid>57</lid>
             <durationType>quarter</durationType>
             <Note>
-              <lid>63</lid>
+              <lid>58</lid>
               <pitch>38</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
-            <lid>64</lid>
+            <lid>59</lid>
             <durationType>quarter</durationType>
             <Note>
-              <lid>65</lid>
+              <lid>60</lid>
               <pitch>36</pitch>
               <tpc>14</tpc>
               </Note>
             </Chord>
           <Chord>
-            <lid>66</lid>
+            <lid>61</lid>
             <durationType>quarter</durationType>
             <Note>
-              <lid>67</lid>
+              <lid>62</lid>
               <pitch>34</pitch>
               <tpc>12</tpc>
               </Note>
             </Chord>
           <Chord>
-            <lid>68</lid>
+            <lid>63</lid>
             <durationType>quarter</durationType>
             <Note>
-              <lid>69</lid>
+              <lid>64</lid>
               <pitch>38</pitch>
               <tpc>16</tpc>
               </Note>
@@ -1033,41 +1942,41 @@
             <subtype>line</subtype>
             </LayoutBreak>
           <Chord>
-            <lid>71</lid>
+            <lid>65</lid>
             <durationType>quarter</durationType>
             <Note>
-              <lid>72</lid>
+              <lid>66</lid>
               <pitch>36</pitch>
               <tpc>14</tpc>
               </Note>
             </Chord>
           <Chord>
-            <lid>73</lid>
+            <lid>67</lid>
             <durationType>quarter</durationType>
             <Note>
-              <lid>74</lid>
+              <lid>68</lid>
               <pitch>34</pitch>
               <tpc>12</tpc>
               </Note>
             </Chord>
           <Chord>
-            <lid>75</lid>
+            <lid>69</lid>
             <durationType>quarter</durationType>
             <Note>
-              <lid>76</lid>
+              <lid>70</lid>
               <pitch>41</pitch>
               <tpc>13</tpc>
               </Note>
             </Chord>
           <Chord>
-            <lid>78</lid>
+            <lid>72</lid>
             <durationType>quarter</durationType>
             <Articulation>
               <subtype>fermata</subtype>
-              <lid>77</lid>
+              <lid>71</lid>
               </Articulation>
             <Note>
-              <lid>79</lid>
+              <lid>73</lid>
               <pitch>41</pitch>
               <tpc>13</tpc>
               </Note>
@@ -1075,37 +1984,37 @@
           </Measure>
         <Measure number="9">
           <Chord>
-            <lid>81</lid>
+            <lid>74</lid>
             <durationType>quarter</durationType>
             <Note>
-              <lid>82</lid>
+              <lid>75</lid>
               <pitch>34</pitch>
               <tpc>12</tpc>
               </Note>
             </Chord>
           <Chord>
-            <lid>83</lid>
+            <lid>76</lid>
             <durationType>quarter</durationType>
             <Note>
-              <lid>84</lid>
+              <lid>77</lid>
               <pitch>38</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
-            <lid>85</lid>
+            <lid>78</lid>
             <durationType>quarter</durationType>
             <Note>
-              <lid>86</lid>
+              <lid>79</lid>
               <pitch>39</pitch>
               <tpc>11</tpc>
               </Note>
             </Chord>
           <Chord>
-            <lid>87</lid>
+            <lid>80</lid>
             <durationType>quarter</durationType>
             <Note>
-              <lid>88</lid>
+              <lid>81</lid>
               <pitch>38</pitch>
               <tpc>16</tpc>
               </Note>
@@ -1113,19 +2022,19 @@
           </Measure>
         <Measure number="10">
           <Chord>
-            <lid>90</lid>
+            <lid>82</lid>
             <durationType>quarter</durationType>
             <Note>
-              <lid>91</lid>
+              <lid>83</lid>
               <pitch>36</pitch>
               <tpc>14</tpc>
               </Note>
             </Chord>
           <Chord>
-            <lid>92</lid>
+            <lid>84</lid>
             <durationType>quarter</durationType>
             <Note>
-              <lid>93</lid>
+              <lid>85</lid>
               <Accidental>
                 <subtype>natural</subtype>
                 </Accidental>
@@ -1134,56 +2043,56 @@
               </Note>
             </Chord>
           <Chord>
-            <lid>95</lid>
+            <lid>87</lid>
             <durationType>quarter</durationType>
             <Articulation>
               <subtype>fermata</subtype>
-              <lid>94</lid>
+              <lid>86</lid>
               </Articulation>
             <Note>
-              <lid>96</lid>
+              <lid>88</lid>
               <pitch>41</pitch>
               <tpc>13</tpc>
               </Note>
             </Chord>
           <Rest>
-            <lid>97</lid>
+            <lid>89</lid>
             <durationType>quarter</durationType>
             </Rest>
           </Measure>
         <Measure number="11">
           <Chord>
-            <lid>99</lid>
+            <lid>90</lid>
             <durationType>quarter</durationType>
             <Note>
-              <lid>100</lid>
+              <lid>91</lid>
               <pitch>38</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
-            <lid>101</lid>
+            <lid>92</lid>
             <durationType>quarter</durationType>
             <Note>
-              <lid>102</lid>
+              <lid>93</lid>
               <pitch>36</pitch>
               <tpc>14</tpc>
               </Note>
             </Chord>
           <Chord>
-            <lid>103</lid>
+            <lid>94</lid>
             <durationType>quarter</durationType>
             <Note>
-              <lid>104</lid>
+              <lid>95</lid>
               <pitch>34</pitch>
               <tpc>12</tpc>
               </Note>
             </Chord>
           <Chord>
-            <lid>105</lid>
+            <lid>96</lid>
             <durationType>quarter</durationType>
             <Note>
-              <lid>106</lid>
+              <lid>97</lid>
               <pitch>39</pitch>
               <tpc>11</tpc>
               </Note>
@@ -1191,44 +2100,44 @@
           </Measure>
         <Measure number="12">
           <Chord>
-            <lid>108</lid>
+            <lid>98</lid>
             <durationType>quarter</durationType>
             <Note>
-              <lid>109</lid>
+              <lid>99</lid>
               <pitch>41</pitch>
               <tpc>13</tpc>
               </Note>
             </Chord>
           <Chord>
-            <lid>110</lid>
+            <lid>100</lid>
             <durationType>quarter</durationType>
             <Note>
-              <lid>111</lid>
+              <lid>101</lid>
               <pitch>41</pitch>
               <tpc>13</tpc>
               </Note>
             </Chord>
           <Chord>
-            <lid>113</lid>
+            <lid>103</lid>
             <durationType>quarter</durationType>
             <Articulation>
               <subtype>fermata</subtype>
-              <lid>112</lid>
+              <lid>102</lid>
               </Articulation>
             <Note>
-              <lid>114</lid>
+              <lid>104</lid>
               <pitch>34</pitch>
               <tpc>12</tpc>
               </Note>
             </Chord>
           <Rest>
-            <lid>115</lid>
+            <lid>105</lid>
             <durationType>quarter</durationType>
             </Rest>
           <BarLine>
             <subtype>end</subtype>
             <span>1</span>
-            <lid>116</lid>
+            <lid>106</lid>
             </BarLine>
           </Measure>
         </Staff>
