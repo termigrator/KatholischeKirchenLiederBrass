@@ -556,7 +556,7 @@
           </Articulation>
         <Channel>
           <program value="56"/>
-          <controller ctrl="7" value="45"/>
+          <controller ctrl="7" value="103"/>
           <synti>Fluid</synti>
           </Channel>
         <Channel name="mute">
@@ -567,6 +567,60 @@
       </Part>
     <Part>
       <Staff id="3">
+        <StaffType group="pitched">
+          <name>stdNormal</name>
+          </StaffType>
+        <defaultClef>F</defaultClef>
+        <bracket type="-1" span="0"/>
+        </Staff>
+      <trackName>Posaune</trackName>
+      <Instrument>
+        <longName>Posaune</longName>
+        <shortName>Psn.</shortName>
+        <trackName>Posaune</trackName>
+        <minPitchP>36</minPitchP>
+        <maxPitchP>74</maxPitchP>
+        <minPitchA>40</minPitchA>
+        <maxPitchA>71</maxPitchA>
+        <instrumentId>brass.trombone</instrumentId>
+        <clef>F</clef>
+        <Articulation>
+          <velocity>100</velocity>
+          <gateTime>100</gateTime>
+          </Articulation>
+        <Articulation name="staccatissimo">
+          <velocity>100</velocity>
+          <gateTime>33</gateTime>
+          </Articulation>
+        <Articulation name="staccato">
+          <velocity>100</velocity>
+          <gateTime>50</gateTime>
+          </Articulation>
+        <Articulation name="portato">
+          <velocity>100</velocity>
+          <gateTime>67</gateTime>
+          </Articulation>
+        <Articulation name="tenuto">
+          <velocity>100</velocity>
+          <gateTime>100</gateTime>
+          </Articulation>
+        <Articulation name="marcato">
+          <velocity>120</velocity>
+          <gateTime>67</gateTime>
+          </Articulation>
+        <Articulation name="sforzato">
+          <velocity>120</velocity>
+          <gateTime>100</gateTime>
+          </Articulation>
+        <Channel>
+          <program value="57"/>
+          <controller ctrl="7" value="83"/>
+          <synti>Fluid</synti>
+          </Channel>
+        </Instrument>
+      </Part>
+    <Part>
+      <Staff id="4">
         <StaffType group="pitched">
           <name>stdNormal</name>
           </StaffType>
@@ -612,7 +666,7 @@
           </Articulation>
         <Channel>
           <program value="58"/>
-          <controller ctrl="7" value="57"/>
+          <controller ctrl="7" value="69"/>
           <synti>Fluid</synti>
           </Channel>
         </Instrument>
@@ -630,7 +684,7 @@
       <Measure number="1" len="3/8">
         <stretch>0.8</stretch>
         <KeySig>
-          <accidental>-3</accidental>
+          <accidental>-1</accidental>
           </KeySig>
         <TimeSig>
           <sigN>3</sigN>
@@ -647,22 +701,22 @@
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <pitch>75</pitch>
-            <tpc>11</tpc>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <pitch>79</pitch>
-            <tpc>15</tpc>
+            <pitch>81</pitch>
+            <tpc>17</tpc>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <pitch>80</pitch>
-            <tpc>10</tpc>
+            <pitch>82</pitch>
+            <tpc>12</tpc>
             </Note>
           </Chord>
         </Measure>
@@ -672,29 +726,29 @@
           <dots>1</dots>
           <durationType>quarter</durationType>
           <Note>
-            <pitch>82</pitch>
-            <tpc>12</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Note>
-            <pitch>79</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Note>
-            <pitch>87</pitch>
-            <tpc>11</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Note>
             <pitch>84</pitch>
             <tpc>14</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>81</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>89</pitch>
+            <tpc>13</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>86</pitch>
+            <tpc>16</tpc>
             </Note>
           </Chord>
         </Measure>
@@ -703,12 +757,16 @@
         <Slur id="2">
           <track>0</track>
           </Slur>
+        <Slur id="3">
+          <track>0</track>
+          </Slur>
         <Chord>
           <durationType>quarter</durationType>
           <Slur type="start" id="2"/>
+          <Slur type="start" id="3"/>
           <Note>
-            <pitch>84</pitch>
-            <tpc>14</tpc>
+            <pitch>86</pitch>
+            <tpc>16</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -718,30 +776,31 @@
             <subtype>fermata</subtype>
             </Articulation>
           <Slur type="stop" id="2"/>
+          <Slur type="stop" id="3"/>
           <Note>
-            <pitch>82</pitch>
-            <tpc>12</tpc>
+            <pitch>84</pitch>
+            <tpc>14</tpc>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <pitch>79</pitch>
-            <tpc>15</tpc>
+            <pitch>81</pitch>
+            <tpc>17</tpc>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <pitch>79</pitch>
-            <tpc>15</tpc>
+            <pitch>81</pitch>
+            <tpc>17</tpc>
             </Note>
           </Chord>
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <pitch>79</pitch>
-            <tpc>15</tpc>
+            <pitch>81</pitch>
+            <tpc>17</tpc>
             </Note>
           </Chord>
         </Measure>
@@ -751,8 +810,15 @@
           <dots>1</dots>
           <durationType>quarter</durationType>
           <Note>
-            <pitch>82</pitch>
-            <tpc>12</tpc>
+            <pitch>84</pitch>
+            <tpc>14</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>81</pitch>
+            <tpc>17</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -765,78 +831,24 @@
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <pitch>77</pitch>
-            <tpc>13</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Note>
-            <pitch>80</pitch>
-            <tpc>10</tpc>
+            <pitch>82</pitch>
+            <tpc>12</tpc>
             </Note>
           </Chord>
         </Measure>
       <Measure number="5" len="3/8">
         <endRepeat>2</endRepeat>
         <stretch>0.8</stretch>
-        <Slur id="3">
+        <Slur id="4">
           <track>0</track>
           </Slur>
-        <Chord>
-          <durationType>quarter</durationType>
-          <Slur type="start" id="3"/>
-          <Note>
-            <pitch>80</pitch>
-            <tpc>10</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Articulation>
-            <direction>up</direction>
-            <subtype>fermata</subtype>
-            </Articulation>
-          <Slur type="stop" id="3"/>
-          <Note>
-            <pitch>79</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        </Measure>
-      <Measure number="6" len="3/8">
-        <irregular/>
-        <stretch>0.8</stretch>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Note>
-            <pitch>77</pitch>
-            <tpc>13</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Note>
-            <pitch>77</pitch>
-            <tpc>13</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Note>
-            <pitch>82</pitch>
-            <tpc>12</tpc>
-            </Note>
-          </Chord>
-        </Measure>
-      <Measure number="6">
-        <stretch>0.8</stretch>
-        <Slur id="4">
+        <Slur id="5">
           <track>0</track>
           </Slur>
         <Chord>
           <durationType>quarter</durationType>
           <Slur type="start" id="4"/>
+          <Slur type="start" id="5"/>
           <Note>
             <pitch>82</pitch>
             <tpc>12</tpc>
@@ -849,91 +861,21 @@
             <subtype>fermata</subtype>
             </Articulation>
           <Slur type="stop" id="4"/>
+          <Slur type="stop" id="5"/>
           <Note>
-            <Accidental>
-              <subtype>natural</subtype>
-              </Accidental>
             <pitch>81</pitch>
             <tpc>17</tpc>
             </Note>
           </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Note>
-            <pitch>77</pitch>
-            <tpc>13</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Note>
-            <pitch>77</pitch>
-            <tpc>13</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Note>
-            <pitch>84</pitch>
-            <tpc>14</tpc>
-            </Note>
-          </Chord>
         </Measure>
-      <Measure number="7">
-        <stretch>0.8</stretch>
-        <Slur id="5">
-          <track>0</track>
-          </Slur>
-        <Chord>
-          <durationType>quarter</durationType>
-          <Slur type="start" id="5"/>
-          <Note>
-            <pitch>84</pitch>
-            <tpc>14</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Articulation>
-            <direction>up</direction>
-            <subtype>fermata</subtype>
-            </Articulation>
-          <Slur type="stop" id="5"/>
-          <Note>
-            <pitch>82</pitch>
-            <tpc>12</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Note>
-            <pitch>82</pitch>
-            <tpc>12</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Note>
-            <pitch>87</pitch>
-            <tpc>11</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Note>
-            <pitch>84</pitch>
-            <tpc>14</tpc>
-            </Note>
-          </Chord>
-        </Measure>
-      <Measure number="8">
+      <Measure number="6" len="3/8">
+        <irregular/>
         <stretch>0.8</stretch>
         <Chord>
-          <dots>1</dots>
-          <durationType>quarter</durationType>
+          <durationType>eighth</durationType>
           <Note>
-            <pitch>82</pitch>
-            <tpc>12</tpc>
+            <pitch>79</pitch>
+            <tpc>15</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -946,26 +888,23 @@
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <pitch>80</pitch>
-            <tpc>10</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Note>
             <pitch>84</pitch>
             <tpc>14</tpc>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="9">
+      <Measure number="6">
         <stretch>0.8</stretch>
         <Slur id="6">
+          <track>0</track>
+          </Slur>
+        <Slur id="7">
           <track>0</track>
           </Slur>
         <Chord>
           <durationType>quarter</durationType>
           <Slur type="start" id="6"/>
+          <Slur type="start" id="7"/>
           <Note>
             <pitch>84</pitch>
             <tpc>14</tpc>
@@ -978,9 +917,13 @@
             <subtype>fermata</subtype>
             </Articulation>
           <Slur type="stop" id="6"/>
+          <Slur type="stop" id="7"/>
           <Note>
-            <pitch>82</pitch>
-            <tpc>12</tpc>
+            <Accidental>
+              <subtype>flat</subtype>
+              </Accidental>
+            <pitch>83</pitch>
+            <tpc>7</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -1000,54 +943,26 @@
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <pitch>82</pitch>
-            <tpc>12</tpc>
+            <pitch>86</pitch>
+            <tpc>16</tpc>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="10">
+      <Measure number="7">
         <stretch>0.8</stretch>
-        <Chord>
-          <dots>1</dots>
-          <durationType>quarter</durationType>
-          <Note>
-            <pitch>82</pitch>
-            <tpc>12</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Note>
-            <pitch>79</pitch>
-            <tpc>15</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Note>
-            <pitch>77</pitch>
-            <tpc>13</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Note>
-            <pitch>80</pitch>
-            <tpc>10</tpc>
-            </Note>
-          </Chord>
-        </Measure>
-      <Measure number="11">
-        <stretch>0.8</stretch>
-        <Slur id="7">
+        <Slur id="8">
+          <track>0</track>
+          </Slur>
+        <Slur id="9">
           <track>0</track>
           </Slur>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="start" id="7"/>
+          <Slur type="start" id="8"/>
+          <Slur type="start" id="9"/>
           <Note>
-            <pitch>80</pitch>
-            <tpc>10</tpc>
+            <pitch>86</pitch>
+            <tpc>16</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -1056,10 +971,50 @@
             <direction>up</direction>
             <subtype>fermata</subtype>
             </Articulation>
-          <Slur type="stop" id="7"/>
+          <Slur type="stop" id="8"/>
+          <Slur type="stop" id="9"/>
           <Note>
-            <pitch>79</pitch>
-            <tpc>15</tpc>
+            <pitch>84</pitch>
+            <tpc>14</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>84</pitch>
+            <tpc>14</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>89</pitch>
+            <tpc>13</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>86</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="8">
+        <stretch>0.8</stretch>
+        <Chord>
+          <dots>1</dots>
+          <durationType>quarter</durationType>
+          <Note>
+            <pitch>84</pitch>
+            <tpc>14</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>81</pitch>
+            <tpc>17</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -1072,8 +1027,53 @@
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <pitch>87</pitch>
-            <tpc>11</tpc>
+            <pitch>86</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="9">
+        <stretch>0.8</stretch>
+        <Slur id="10">
+          <track>0</track>
+          </Slur>
+        <Slur id="11">
+          <track>0</track>
+          </Slur>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Slur type="start" id="10"/>
+          <Slur type="start" id="11"/>
+          <Note>
+            <pitch>86</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Articulation>
+            <direction>up</direction>
+            <subtype>fermata</subtype>
+            </Articulation>
+          <Slur type="stop" id="10"/>
+          <Slur type="stop" id="11"/>
+          <Note>
+            <pitch>84</pitch>
+            <tpc>14</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>81</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>81</pitch>
+            <tpc>17</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -1084,13 +1084,21 @@
             </Note>
           </Chord>
         </Measure>
-      <Measure number="12">
+      <Measure number="10">
+        <stretch>0.8</stretch>
         <Chord>
           <dots>1</dots>
           <durationType>quarter</durationType>
           <Note>
-            <pitch>82</pitch>
-            <tpc>12</tpc>
+            <pitch>84</pitch>
+            <tpc>14</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>81</pitch>
+            <tpc>17</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -1103,28 +1111,26 @@
         <Chord>
           <durationType>eighth</durationType>
           <Note>
-            <pitch>80</pitch>
-            <tpc>10</tpc>
-            </Note>
-          </Chord>
-        <Chord>
-          <durationType>eighth</durationType>
-          <Note>
-            <pitch>77</pitch>
-            <tpc>13</tpc>
+            <pitch>82</pitch>
+            <tpc>12</tpc>
             </Note>
           </Chord>
         </Measure>
-      <Measure number="13" len="3/8">
-        <Slur id="8">
+      <Measure number="11">
+        <stretch>0.8</stretch>
+        <Slur id="12">
+          <track>0</track>
+          </Slur>
+        <Slur id="13">
           <track>0</track>
           </Slur>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="start" id="8"/>
+          <Slur type="start" id="12"/>
+          <Slur type="start" id="13"/>
           <Note>
-            <pitch>77</pitch>
-            <tpc>13</tpc>
+            <pitch>82</pitch>
+            <tpc>12</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -1133,10 +1139,93 @@
             <direction>up</direction>
             <subtype>fermata</subtype>
             </Articulation>
-          <Slur type="stop" id="8"/>
+          <Slur type="stop" id="12"/>
+          <Slur type="stop" id="13"/>
           <Note>
-            <pitch>75</pitch>
-            <tpc>11</tpc>
+            <pitch>81</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>84</pitch>
+            <tpc>14</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>89</pitch>
+            <tpc>13</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>86</pitch>
+            <tpc>16</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="12">
+        <Chord>
+          <dots>1</dots>
+          <durationType>quarter</durationType>
+          <Note>
+            <pitch>84</pitch>
+            <tpc>14</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>81</pitch>
+            <tpc>17</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>82</pitch>
+            <tpc>12</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>79</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="13" len="3/8">
+        <Slur id="14">
+          <track>0</track>
+          </Slur>
+        <Slur id="15">
+          <track>0</track>
+          </Slur>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Slur type="start" id="14"/>
+          <Slur type="start" id="15"/>
+          <Note>
+            <pitch>79</pitch>
+            <tpc>15</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Articulation>
+            <direction>up</direction>
+            <subtype>fermata</subtype>
+            </Articulation>
+          <Slur type="stop" id="14"/>
+          <Slur type="stop" id="15"/>
+          <Note>
+            <pitch>77</pitch>
+            <tpc>13</tpc>
             </Note>
           </Chord>
         <BarLine>
@@ -1213,12 +1302,12 @@
           </Chord>
         </Measure>
       <Measure number="3">
-        <Slur id="9">
+        <Slur id="16">
           <track>4</track>
           </Slur>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="start" id="9"/>
+          <Slur type="start" id="16"/>
           <Note>
             <pitch>74</pitch>
             <tpc>16</tpc>
@@ -1230,7 +1319,7 @@
             <direction>up</direction>
             <subtype>fermata</subtype>
             </Articulation>
-          <Slur type="stop" id="9"/>
+          <Slur type="stop" id="16"/>
           <Note>
             <pitch>72</pitch>
             <tpc>14</tpc>
@@ -1290,12 +1379,12 @@
           </Chord>
         </Measure>
       <Measure number="5" len="3/8">
-        <Slur id="10">
+        <Slur id="17">
           <track>4</track>
           </Slur>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="start" id="10"/>
+          <Slur type="start" id="17"/>
           <Note>
             <pitch>70</pitch>
             <tpc>12</tpc>
@@ -1307,7 +1396,7 @@
             <direction>up</direction>
             <subtype>fermata</subtype>
             </Articulation>
-          <Slur type="stop" id="10"/>
+          <Slur type="stop" id="17"/>
           <Note>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -1338,12 +1427,12 @@
           </Chord>
         </Measure>
       <Measure number="6">
-        <Slur id="11">
+        <Slur id="18">
           <track>4</track>
           </Slur>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="start" id="11"/>
+          <Slur type="start" id="18"/>
           <Note>
             <pitch>72</pitch>
             <tpc>14</tpc>
@@ -1355,13 +1444,13 @@
             <direction>up</direction>
             <subtype>fermata</subtype>
             </Articulation>
-          <Slur type="stop" id="11"/>
+          <Slur type="stop" id="18"/>
           <Note>
             <Accidental>
-              <subtype>natural</subtype>
+              <subtype>flat</subtype>
               </Accidental>
             <pitch>71</pitch>
-            <tpc>19</tpc>
+            <tpc>7</tpc>
             </Note>
           </Chord>
         <Chord>
@@ -1387,12 +1476,12 @@
           </Chord>
         </Measure>
       <Measure number="7">
-        <Slur id="12">
+        <Slur id="19">
           <track>4</track>
           </Slur>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="start" id="12"/>
+          <Slur type="start" id="19"/>
           <Note>
             <pitch>74</pitch>
             <tpc>16</tpc>
@@ -1404,7 +1493,7 @@
             <direction>up</direction>
             <subtype>fermata</subtype>
             </Articulation>
-          <Slur type="stop" id="12"/>
+          <Slur type="stop" id="19"/>
           <Note>
             <pitch>72</pitch>
             <tpc>14</tpc>
@@ -1464,12 +1553,12 @@
           </Chord>
         </Measure>
       <Measure number="9">
-        <Slur id="13">
+        <Slur id="20">
           <track>4</track>
           </Slur>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="start" id="13"/>
+          <Slur type="start" id="20"/>
           <Note>
             <pitch>74</pitch>
             <tpc>16</tpc>
@@ -1481,7 +1570,7 @@
             <direction>up</direction>
             <subtype>fermata</subtype>
             </Articulation>
-          <Slur type="stop" id="13"/>
+          <Slur type="stop" id="20"/>
           <Note>
             <pitch>72</pitch>
             <tpc>14</tpc>
@@ -1541,12 +1630,12 @@
           </Chord>
         </Measure>
       <Measure number="11">
-        <Slur id="14">
+        <Slur id="21">
           <track>4</track>
           </Slur>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="start" id="14"/>
+          <Slur type="start" id="21"/>
           <Note>
             <pitch>70</pitch>
             <tpc>12</tpc>
@@ -1558,7 +1647,7 @@
             <direction>up</direction>
             <subtype>fermata</subtype>
             </Articulation>
-          <Slur type="stop" id="14"/>
+          <Slur type="stop" id="21"/>
           <Note>
             <pitch>69</pitch>
             <tpc>17</tpc>
@@ -1618,12 +1707,12 @@
           </Chord>
         </Measure>
       <Measure number="13" len="3/8">
-        <Slur id="15">
+        <Slur id="22">
           <track>4</track>
           </Slur>
         <Chord>
           <durationType>quarter</durationType>
-          <Slur type="start" id="15"/>
+          <Slur type="start" id="22"/>
           <Note>
             <pitch>67</pitch>
             <tpc>15</tpc>
@@ -1635,7 +1724,7 @@
             <direction>up</direction>
             <subtype>fermata</subtype>
             </Articulation>
-          <Slur type="stop" id="15"/>
+          <Slur type="stop" id="22"/>
           <Note>
             <pitch>65</pitch>
             <tpc>13</tpc>
@@ -1648,6 +1737,424 @@
         </Measure>
       </Staff>
     <Staff id="3">
+      <Measure number="1" len="3/8">
+        <KeySig>
+          <accidental>-3</accidental>
+          </KeySig>
+        <TimeSig>
+          <sigN>3</sigN>
+          <sigD>4</sigD>
+          <showCourtesySig>1</showCourtesySig>
+          </TimeSig>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>51</pitch>
+            <tpc>11</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Note>
+            <pitch>51</pitch>
+            <tpc>11</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="2">
+        <Chord>
+          <dots>1</dots>
+          <durationType>quarter</durationType>
+          <Note>
+            <pitch>51</pitch>
+            <tpc>11</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>51</pitch>
+            <tpc>11</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Note>
+            <pitch>44</pitch>
+            <tpc>10</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="3">
+        <Chord>
+          <dots>1</dots>
+          <durationType>quarter</durationType>
+          <Note>
+            <pitch>51</pitch>
+            <tpc>11</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>no</BeamMode>
+          <durationType>eighth</durationType>
+          <Articulation>
+            <subtype>fermata</subtype>
+            </Articulation>
+          <Note>
+            <pitch>51</pitch>
+            <tpc>11</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>mid</BeamMode>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>51</pitch>
+            <tpc>11</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>51</pitch>
+            <tpc>11</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="4">
+        <Chord>
+          <dots>1</dots>
+          <durationType>quarter</durationType>
+          <Note>
+            <pitch>51</pitch>
+            <tpc>11</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>51</pitch>
+            <tpc>11</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Note>
+            <pitch>46</pitch>
+            <tpc>12</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="5" len="3/8">
+        <Slur id="23">
+          <track>8</track>
+          </Slur>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Slur type="start" id="23"/>
+          <Note>
+            <pitch>46</pitch>
+            <tpc>12</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Slur type="stop" id="23"/>
+          <Note>
+            <pitch>51</pitch>
+            <tpc>11</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="6" len="3/8">
+        <Chord>
+          <BeamMode>begin</BeamMode>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>46</pitch>
+            <tpc>12</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>mid</BeamMode>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>46</pitch>
+            <tpc>12</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>46</pitch>
+            <tpc>12</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="6">
+        <Chord>
+          <dots>1</dots>
+          <durationType>quarter</durationType>
+          <Articulation>
+            <subtype>fermata</subtype>
+            </Articulation>
+          <Note>
+            <pitch>53</pitch>
+            <tpc>13</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>53</pitch>
+            <tpc>13</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>mid</BeamMode>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>53</pitch>
+            <tpc>13</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>53</pitch>
+            <tpc>13</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="7">
+        <Chord>
+          <dots>1</dots>
+          <durationType>quarter</durationType>
+          <Articulation>
+            <subtype>fermata</subtype>
+            </Articulation>
+          <Note>
+            <pitch>46</pitch>
+            <tpc>12</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>no</BeamMode>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>51</pitch>
+            <tpc>11</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>mid</BeamMode>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>51</pitch>
+            <tpc>11</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>51</pitch>
+            <tpc>11</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="8">
+        <Chord>
+          <dots>1</dots>
+          <durationType>quarter</durationType>
+          <Note>
+            <pitch>51</pitch>
+            <tpc>11</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>mid</BeamMode>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>51</pitch>
+            <tpc>11</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>mid</BeamMode>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>48</pitch>
+            <tpc>14</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>44</pitch>
+            <tpc>10</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="9">
+        <Chord>
+          <dots>1</dots>
+          <durationType>quarter</durationType>
+          <Articulation>
+            <subtype>fermata</subtype>
+            </Articulation>
+          <Note>
+            <pitch>51</pitch>
+            <tpc>11</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>51</pitch>
+            <tpc>11</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>mid</BeamMode>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>51</pitch>
+            <tpc>11</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>51</pitch>
+            <tpc>11</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="10">
+        <Chord>
+          <dots>1</dots>
+          <durationType>quarter</durationType>
+          <Note>
+            <pitch>51</pitch>
+            <tpc>11</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>51</pitch>
+            <tpc>11</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Note>
+            <pitch>46</pitch>
+            <tpc>12</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="11">
+        <Chord>
+          <durationType>quarter</durationType>
+          <Note>
+            <pitch>46</pitch>
+            <tpc>12</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Articulation>
+            <subtype>fermata</subtype>
+            </Articulation>
+          <Note>
+            <pitch>51</pitch>
+            <tpc>11</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>begin</BeamMode>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>51</pitch>
+            <tpc>11</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>mid</BeamMode>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>51</pitch>
+            <tpc>11</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>51</pitch>
+            <tpc>11</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="12">
+        <Chord>
+          <dots>1</dots>
+          <durationType>quarter</durationType>
+          <Note>
+            <pitch>51</pitch>
+            <tpc>11</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>51</pitch>
+            <tpc>11</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>44</pitch>
+            <tpc>10</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <BeamMode>mid</BeamMode>
+          <durationType>eighth</durationType>
+          <Note>
+            <pitch>46</pitch>
+            <tpc>12</tpc>
+            </Note>
+          </Chord>
+        </Measure>
+      <Measure number="13" len="3/8">
+        <Slur id="24">
+          <track>8</track>
+          </Slur>
+        <Chord>
+          <durationType>quarter</durationType>
+          <Slur type="start" id="24"/>
+          <Note>
+            <pitch>46</pitch>
+            <tpc>12</tpc>
+            </Note>
+          </Chord>
+        <Chord>
+          <durationType>eighth</durationType>
+          <Slur type="stop" id="24"/>
+          <Note>
+            <pitch>51</pitch>
+            <tpc>11</tpc>
+            </Note>
+          </Chord>
+        <BarLine>
+          <subtype>end</subtype>
+          <span>1</span>
+          </BarLine>
+        </Measure>
+      </Staff>
+    <Staff id="4">
       <Measure number="1" len="3/8">
         <KeySig>
           <lid>4</lid>
@@ -1791,14 +2298,14 @@
           </Chord>
         </Measure>
       <Measure number="5" len="3/8">
-        <Slur id="16">
+        <Slur id="25">
           <lid>101</lid>
-          <track>8</track>
+          <track>12</track>
           </Slur>
         <Chord>
           <lid>30</lid>
           <durationType>quarter</durationType>
-          <Slur type="start" id="16"/>
+          <Slur type="start" id="25"/>
           <Note>
             <lid>31</lid>
             <pitch>34</pitch>
@@ -1808,7 +2315,7 @@
         <Chord>
           <lid>32</lid>
           <durationType>eighth</durationType>
-          <Slur type="stop" id="16"/>
+          <Slur type="stop" id="25"/>
           <Note>
             <lid>33</lid>
             <pitch>39</pitch>
@@ -2145,14 +2652,14 @@
           </Chord>
         </Measure>
       <Measure number="13" len="3/8">
-        <Slur id="17">
+        <Slur id="26">
           <lid>102</lid>
-          <track>8</track>
+          <track>12</track>
           </Slur>
         <Chord>
           <lid>96</lid>
           <durationType>quarter</durationType>
-          <Slur type="start" id="17"/>
+          <Slur type="start" id="26"/>
           <Note>
             <lid>97</lid>
             <pitch>34</pitch>
@@ -2162,7 +2669,7 @@
         <Chord>
           <lid>98</lid>
           <durationType>eighth</durationType>
-          <Slur type="stop" id="17"/>
+          <Slur type="stop" id="26"/>
           <Note>
             <lid>99</lid>
             <pitch>39</pitch>
@@ -2595,7 +3102,7 @@
         </PageList>
       <Part>
         <Staff id="1">
-          <linkedTo>3</linkedTo>
+          <linkedTo>4</linkedTo>
           <StaffType group="pitched">
             <name>stdNormal</name>
             </StaffType>
@@ -2813,14 +3320,14 @@
           </Measure>
         <Measure number="5" len="3/8">
           <endRepeat>2</endRepeat>
-          <Slur id="18">
+          <Slur id="27">
             <lid>101</lid>
             <track>0</track>
             </Slur>
           <Chord>
             <lid>30</lid>
             <durationType>quarter</durationType>
-            <Slur type="start" id="18"/>
+            <Slur type="start" id="27"/>
             <Note>
               <lid>31</lid>
               <pitch>34</pitch>
@@ -2830,7 +3337,7 @@
           <Chord>
             <lid>32</lid>
             <durationType>eighth</durationType>
-            <Slur type="stop" id="18"/>
+            <Slur type="stop" id="27"/>
             <Note>
               <lid>33</lid>
               <pitch>39</pitch>
@@ -3168,14 +3675,14 @@
             </Chord>
           </Measure>
         <Measure number="13" len="3/8">
-          <Slur id="19">
+          <Slur id="28">
             <lid>102</lid>
             <track>0</track>
             </Slur>
           <Chord>
             <lid>96</lid>
             <durationType>quarter</durationType>
-            <Slur type="start" id="19"/>
+            <Slur type="start" id="28"/>
             <Note>
               <lid>97</lid>
               <pitch>34</pitch>
@@ -3185,7 +3692,7 @@
           <Chord>
             <lid>98</lid>
             <durationType>eighth</durationType>
-            <Slur type="stop" id="19"/>
+            <Slur type="stop" id="28"/>
             <Note>
               <lid>99</lid>
               <pitch>39</pitch>
